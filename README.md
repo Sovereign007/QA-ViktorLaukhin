@@ -10,17 +10,17 @@
 ## Портфолио 
 - Тестовая документация
 
-  - Требования к приложениям (дано организатором):
+  - Требования к приложениям (предоставлено организатором):
      - [Stellar Burgers:](https://wiki.yandex.ru/homepage/trebovanijakstellarburgers/)
      - [Продуктовый помощник:](https://wiki.yandex.ru/homepage/trebovanijakproduktovyjjpomoshhnik/)
      - [Kittygram:](https://wiki.yandex.ru/homepage/trebovanijakkittygram/)
     
-  - Макеты приложений (дано организатором):
+  - Макеты приложений (предоставлено организатором):
      - [Stellar Burgers:](https://www.figma.com/file/7v96lSaXZov0qXKZDnAHLT/Burger?t=yzHvZAwnirXYc03a-0)
      - [Продуктовый помощник:](https://www.figma.com/file/rMtqMxDFNhDIgJEFVMv8jX/Recipes?node-id=0%3A1&t=ht2FpmfTdOQaW7eE-0)
      - [Kittygram:](https://www.figma.com/file/mzeWaE7icA8DuWrhhlD2cR/Kittygram?node-id=0%3A1)
     
-  - Веб-приложения, доступные нашей команде (дано организатором):
+  - Веб-приложения, доступные нашей команде (предоставлено организатором):
      - [Stellar Burgers:](https://burger-frontend-9.prakticum-team.ru/)
      - [Продуктовый помощник:](https://foodgram-frontend-9.prakticum-team.ru/)
      - [Kittygram:](https://kittygram-frontend-9.prakticum-team.ru/)
