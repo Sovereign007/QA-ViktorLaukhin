@@ -11,7 +11,7 @@
 - Тестовая документация
   -  [Чек-листы](https://ссылочку_сюда)
   -  [Тест-кейсы](https://ссылочку_сюда)
-  -  [Mind maps]:
+  -  Mind maps:
   
      - [Stellar Burger](https://miro.com/app/board/uXjVPqZfbnM=/?share_link_id=756541945790)     
      - [Продуктовый помощник](https://miro.com/app/board/uXjVPqYycr4=/?share_link_id=111794524158)
