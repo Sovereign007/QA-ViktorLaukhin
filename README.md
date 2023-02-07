@@ -13,9 +13,9 @@
   -  [Тест-кейсы](https://ссылочку_сюда)
   -  [Mind maps]:
   
-    1. [Stellar Burger](https://miro.com/app/board/uXjVPqZfbnM=/?share_link_id=756541945790)     
-    2. [Продуктовый помощник](https://miro.com/app/board/uXjVPqYycr4=/?share_link_id=111794524158)
-    3. [Kittygram](https://miro.com/app/board/uXjVPqYyco8=/?share_link_id=105427141870)
+     - [Stellar Burger](https://miro.com/app/board/uXjVPqZfbnM=/?share_link_id=756541945790)     
+     - [Продуктовый помощник](https://miro.com/app/board/uXjVPqYycr4=/?share_link_id=111794524158)
+     - [Kittygram](https://miro.com/app/board/uXjVPqYyco8=/?share_link_id=105427141870)
      
   -  [Баг-репорты](https://ссылочку_сюда)
 - Коллекция в Postman 
