@@ -29,7 +29,8 @@
      - [Продуктовый помощник](https://docs.google.com/document/d/1-n0Rm9sqZk-fQPFHwCl17lUkRTT3Att75NHGUbXwj4U/edit?usp=sharing)
      - [Kittygram](https://docs.google.com/document/d/1Vou7uSclRnPVHsAu3nT01sXd5Vs4hIyao_2TRGdXwjU/edit?usp=sharing) 
  
- -  [Баг-репорты](https://ссылочку_сюда)
+ -  [Баг-репорты]
+   - [название проекта](https://ссылочку_сюда)
  - Коллекция в Postman 
   -  [Название проекта](https://ссылочку_сюда)
 - SQL запросы 
