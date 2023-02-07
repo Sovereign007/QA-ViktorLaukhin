@@ -5,7 +5,7 @@
 
 ## My CV 
 
-[Здесь будет сслыка на резюме](https://ссылочку_сюда)
+[Ссылка на резюме](https://docs.google.com/document/d/1NojFzomcuSthzYhJ7p0kHDMR0-TAIwiOIsw4fEcUOXI/edit?usp=sharing)
 
 ## Портфолио 
 - Тестовая документация
@@ -13,12 +13,14 @@
      - [Stellar Burgers](https://docs.google.com/spreadsheets/d/1R3olgcmOmMkmCSF_4xSo55xBBNTdCH0IUSaUqffUMvY/edit?usp=sharing)
      - [Продуктовый помощник](https://docs.google.com/spreadsheets/d/1oAUuqpSONcdyuCQc0qKKisIiztwJeeYqYcpsB0SVgLs/edit?usp=sharing)
      - [Kittygram](https://docs.google.com/spreadsheets/d/18lnRDqg3E4z_sGrCvkmqz_lyCRn8Ici0F8s6NpuPigw/edit?usp=sharing)
+  
   -  [Тест-кейсы](https://ссылочку_сюда)
 
   - Mind maps:
      - [Stellar Burgers](https://miro.com/app/board/uXjVPqZfbnM=/?share_link_id=756541945790)     
      - [Продуктовый помощник](https://miro.com/app/board/uXjVPqYycr4=/?share_link_id=111794524158)
      - [Kittygram](https://miro.com/app/board/uXjVPqYyco8=/?share_link_id=105427141870)
+  
   - Отчеты о тестировании:
      - [Stellar Burgers](https://docs.google.com/document/d/1JJjsLXTxjM6KKOSmFKLK4S79X_mZY37wZ6jFqOzEUOs/edit?usp=sharing)
      - [Продуктовый помощник](https://docs.google.com/document/d/1-n0Rm9sqZk-fQPFHwCl17lUkRTT3Att75NHGUbXwj4U/edit?usp=sharing)
