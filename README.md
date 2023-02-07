@@ -24,18 +24,19 @@
      - [Kittygram](https://miro.com/app/board/uXjVPqYyco8=/?share_link_id=105427141870)
   
   - Отчеты о тестировании:
+     - [Яндекс.Маршруты](https://docs.google.com/document/d/1wVOwE1ibxDGVbdKnl2hdwejqiU9Qs1iqjPky-NkdElI/edit?usp=sharing)
      - [Stellar Burgers](https://docs.google.com/document/d/1JJjsLXTxjM6KKOSmFKLK4S79X_mZY37wZ6jFqOzEUOs/edit?usp=sharing)
      - [Продуктовый помощник](https://docs.google.com/document/d/1-n0Rm9sqZk-fQPFHwCl17lUkRTT3Att75NHGUbXwj4U/edit?usp=sharing)
      - [Kittygram](https://docs.google.com/document/d/1Vou7uSclRnPVHsAu3nT01sXd5Vs4hIyao_2TRGdXwjU/edit?usp=sharing) 
  
  -  [Баг-репорты](https://ссылочку_сюда)
-- Коллекция в Postman 
+ - Коллекция в Postman 
   -  [Название проекта](https://ссылочку_сюда)
 - SQL запросы 
   -  [Название проектв](https://ссылочку_сюда)
 
 ## Инструменты и технологии
-Блок для инструментов.
+Charles Proxy, Chrome DevTools, Figma, Miro.
 
 ## Мои контакты
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-0088cc?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/vlsovereign)
