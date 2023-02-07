@@ -10,17 +10,17 @@
 ## Портфолио 
 - Тестовая документация
 
-     Требования к приложениям:
+  - Требования к приложениям:
      - [Stellar Burgers:](https://wiki.yandex.ru/homepage/trebovanijakstellarburgers/)
      - [Продуктовый помощник:](https://wiki.yandex.ru/homepage/trebovanijakproduktovyjjpomoshhnik/)
      - [Kittygram:](https://wiki.yandex.ru/homepage/trebovanijakkittygram/)
     
-    Макеты приложений:
+  - Макеты приложений:
      - [Stellar Burgers:](https://www.figma.com/file/7v96lSaXZov0qXKZDnAHLT/Burger?t=yzHvZAwnirXYc03a-0)
      - [Продуктовый помощник:](https://www.figma.com/file/rMtqMxDFNhDIgJEFVMv8jX/Recipes?node-id=0%3A1&t=ht2FpmfTdOQaW7eE-0)
      - [Kittygram:](https://www.figma.com/file/mzeWaE7icA8DuWrhhlD2cR/Kittygram?node-id=0%3A1)
     
-    Веб-приложения, доступные нашей команде:
+  - Веб-приложения, доступные нашей команде:
      - [Stellar Burgers:](https://burger-frontend-9.prakticum-team.ru/)
      - [Продуктовый помощник:](https://foodgram-frontend-9.prakticum-team.ru/)
      - [Kittygram:](https://kittygram-frontend-9.prakticum-team.ru/)
@@ -31,7 +31,6 @@
      - [Kittygram](https://docs.google.com/spreadsheets/d/18lnRDqg3E4z_sGrCvkmqz_lyCRn8Ici0F8s6NpuPigw/edit?usp=sharing)
   -  [Тест-кейсы](https://ссылочку_сюда)
   -  Mind maps:
-  
      - [Stellar Burgers](https://miro.com/app/board/uXjVPqZfbnM=/?share_link_id=756541945790)     
      - [Продуктовый помощник](https://miro.com/app/board/uXjVPqYycr4=/?share_link_id=111794524158)
      - [Kittygram](https://miro.com/app/board/uXjVPqYyco8=/?share_link_id=105427141870)
