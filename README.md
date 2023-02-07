@@ -9,23 +9,7 @@
 
 ## Портфолио 
 - Тестовая документация
-
-  - Требования к приложениям (предоставлено организатором):
-     - [Stellar Burgers](https://wiki.yandex.ru/homepage/trebovanijakstellarburgers/)
-     - [Продуктовый помощник](https://wiki.yandex.ru/homepage/trebovanijakproduktovyjjpomoshhnik/)
-     - [Kittygram](https://wiki.yandex.ru/homepage/trebovanijakkittygram/)
-    
-  - Макеты приложений (предоставлено организатором):
-     - [Stellar Burgers](https://www.figma.com/file/7v96lSaXZov0qXKZDnAHLT/Burger?t=yzHvZAwnirXYc03a-0)
-     - [Продуктовый помощник](https://www.figma.com/file/rMtqMxDFNhDIgJEFVMv8jX/Recipes?node-id=0%3A1&t=ht2FpmfTdOQaW7eE-0)
-     - [Kittygram](https://www.figma.com/file/mzeWaE7icA8DuWrhhlD2cR/Kittygram?node-id=0%3A1)
-    
-  - Веб-приложения, доступные нашей команде (предоставлено организатором):
-     - [Stellar Burgers](https://burger-frontend-9.prakticum-team.ru/)
-     - [Продуктовый помощник](https://foodgram-frontend-9.prakticum-team.ru/)
-     - [Kittygram](https://kittygram-frontend-9.prakticum-team.ru/)
-       
-  - Чек-листы и описания серых зон к проектам:
+  - Чек-листы и описания серых зон:
      - [Stellar Burgers](https://docs.google.com/spreadsheets/d/1R3olgcmOmMkmCSF_4xSo55xBBNTdCH0IUSaUqffUMvY/edit?usp=sharing)
      - [Продуктовый помощник](https://docs.google.com/spreadsheets/d/1oAUuqpSONcdyuCQc0qKKisIiztwJeeYqYcpsB0SVgLs/edit?usp=sharing)
      - [Kittygram](https://docs.google.com/spreadsheets/d/18lnRDqg3E4z_sGrCvkmqz_lyCRn8Ici0F8s6NpuPigw/edit?usp=sharing)
@@ -35,8 +19,7 @@
      - [Stellar Burgers](https://miro.com/app/board/uXjVPqZfbnM=/?share_link_id=756541945790)     
      - [Продуктовый помощник](https://miro.com/app/board/uXjVPqYycr4=/?share_link_id=111794524158)
      - [Kittygram](https://miro.com/app/board/uXjVPqYyco8=/?share_link_id=105427141870)
- 
- - Отчеты о тестировании:
+  - Отчеты о тестировании:
      - [Stellar Burgers](https://docs.google.com/document/d/1JJjsLXTxjM6KKOSmFKLK4S79X_mZY37wZ6jFqOzEUOs/edit?usp=sharing)
      - [Продуктовый помощник](https://docs.google.com/document/d/1-n0Rm9sqZk-fQPFHwCl17lUkRTT3Att75NHGUbXwj4U/edit?usp=sharing)
      - [Kittygram](https://docs.google.com/document/d/1Vou7uSclRnPVHsAu3nT01sXd5Vs4hIyao_2TRGdXwjU/edit?usp=sharing) 
