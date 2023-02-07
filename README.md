@@ -30,11 +30,11 @@
      - [Kittygram](https://docs.google.com/document/d/1Vou7uSclRnPVHsAu3nT01sXd5Vs4hIyao_2TRGdXwjU/edit?usp=sharing) 
  
  -  Баг-репорты
-   - [название проекта](https://ссылочку_сюда)
+     - [название проекта](https://ссылочку_сюда)
  - Коллекция в Postman 
-  - [Название проекта](https://ссылочку_сюда)
+     - [Название проекта](https://ссылочку_сюда)
 - SQL запросы 
-  - [Название проектв](https://ссылочку_сюда)
+     - [Название проектв](https://ссылочку_сюда)
 
 ## Инструменты и технологии
 Charles Proxy, Chrome DevTools, Figma, Miro.
