@@ -20,7 +20,7 @@
      - [Продуктовый помощник:](https://www.figma.com/file/rMtqMxDFNhDIgJEFVMv8jX/Recipes?node-id=0%3A1&t=ht2FpmfTdOQaW7eE-0)
      - [Kittygram:](https://www.figma.com/file/mzeWaE7icA8DuWrhhlD2cR/Kittygram?node-id=0%3A1)
     
-    Веб-приложения были расположены в следующих тестовых стендах, доступных нашей команде:
+    Веб-приложения, доступные нашей команде:
      - [Stellar Burgers:](https://burger-frontend-9.prakticum-team.ru/)
      - [Продуктовый помощник:](https://foodgram-frontend-9.prakticum-team.ru/)
      - [Kittygram:](https://kittygram-frontend-9.prakticum-team.ru/)
