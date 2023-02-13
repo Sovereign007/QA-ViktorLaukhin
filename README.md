@@ -30,10 +30,10 @@
      - [Kittygram](https://docs.google.com/document/d/1Vou7uSclRnPVHsAu3nT01sXd5Vs4hIyao_2TRGdXwjU/edit?usp=sharing) 
  
  -  Баг-репорты
-     - [Яндекс.Маршруты](https://ссылочку_сюда)
-     - [Stellar Burgers](https://ссылочку_сюда)
-     - [Продуктовый помощник](https://ссылочку_сюда)
-     - [Kittygram](https://ссылочку_сюда)
+     - [Яндекс.Маршруты](https://drive.google.com/drive/folders/1DZC7gVL7XTLTJ2CxUEuDj8wwdpaTJdcQ?usp=share_link)
+     - [Stellar Burgers](https://drive.google.com/drive/folders/1aosSSmJmFO6MFHHZcZLVwGzyfXD2C9lW?usp=share_link)
+     - [Продуктовый помощник](https://drive.google.com/drive/folders/1r-6A_1gHZl1d6HxtY5NnzZGpEaGiYegY?usp=share_link)
+     - [Kittygram](https://drive.google.com/drive/folders/15hbIZvcB6LXJULlP9wxLTnkhTgTBIDra?usp=share_link)
      
  - Коллекция в Postman 
      - [Название проекта](https://ссылочку_сюда)
