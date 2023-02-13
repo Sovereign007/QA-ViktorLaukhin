@@ -10,7 +10,7 @@
 [Ссылка на резюме](https://docs.google.com/document/d/1NojFzomcuSthzYhJ7p0kHDMR0-TAIwiOIsw4fEcUOXI/edit?usp=sharing)
 
 ## Портфолио 
-- Тестовая документация
+- Тестовая документация:
   - Чек-листы и описания серых зон:
      - [Stellar Burgers](https://docs.google.com/spreadsheets/d/1R3olgcmOmMkmCSF_4xSo55xBBNTdCH0IUSaUqffUMvY/edit?usp=sharing)
      - [Продуктовый помощник](https://docs.google.com/spreadsheets/d/1oAUuqpSONcdyuCQc0qKKisIiztwJeeYqYcpsB0SVgLs/edit?usp=sharing)
@@ -34,8 +34,10 @@
      - [Stellar Burgers](https://ссылочку_сюда)
      - [Продуктовый помощник](https://ссылочку_сюда)
      - [Kittygram](https://ссылочку_сюда)
+     
  - Коллекция в Postman 
      - [Название проекта](https://ссылочку_сюда)
+     
 - SQL запросы 
      - [Название проектв](https://ссылочку_сюда)
 
