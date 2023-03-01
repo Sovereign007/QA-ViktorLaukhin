@@ -43,7 +43,7 @@
      - [Название проектв](https://ссылочку_сюда)
 
 ## Инструменты и технологии
-Charles Proxy, Chrome DevTools, Figma, Miro.
+Charles Proxy, Chrome DevTools, Figma, Miro, Postman, Android Studio, Pytest, Selenium, Git, SQL, сURL.
 
 ## Мои контакты
 [![Telegram Badge](https://img.shields.io/badge/-Telegram-0088cc?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/vlsovereign)
