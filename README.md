@@ -8,7 +8,7 @@
 
 ## My CV 
 
-[Ссылка на резюме](https://docs.google.com/document/d/1NojFzomcuSthzYhJ7p0kHDMR0-TAIwiOIsw4fEcUOXI/edit?usp=sharing)
+[Ссылка на резюме](https://docs.google.com/document/d/1nrSwdhEYagSVSSrpQWHu0tV6FC8et3Z2/edit?usp=sharing&ouid=109631138954925094383&rtpof=true&sd=true)
 
 ## Портфолио 
 - Тестовая документация:
