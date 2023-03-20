@@ -17,19 +17,6 @@
 				"url": "{{server}}"
 			},
 			"response": []
-		},
-		{
-			"name": "Test2",
-			"id": "51bf21c9-5d54-4afe-9264-ce3153240cf0",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "{{server}}"
-			},
-			"response": []
 		}
 	]
 }
