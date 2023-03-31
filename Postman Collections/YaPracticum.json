@@ -744,7 +744,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 7",
+			"name": "Некорректная масса товаров большое число (99999999)",
 			"id": "bde25321-ce82-405b-aee3-85be93e7013c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
