@@ -1472,7 +1472,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 3",
+			"name": "Добавление товаров в несуществующую корзину",
 			"id": "5cc0834b-d6c9-47de-bc20-01392d98d319",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
