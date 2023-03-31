@@ -1201,7 +1201,7 @@
 						}
 					}
 				},
-				"url": "{{server}}/api/v1/orders/id"
+				"url": "{{server}}/api/v1/orders/{{id}}"
 			},
 			"response": []
 		},
