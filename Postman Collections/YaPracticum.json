@@ -546,7 +546,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 4",
+			"name": "Валидация параметра массы продуктов (2,4)",
 			"id": "c5f9a8f9-6d77-407f-9aab-4f6c21d029ab",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -556,7 +556,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>2.4</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
 					"options": {
 						"raw": {
 							"language": "xml"
