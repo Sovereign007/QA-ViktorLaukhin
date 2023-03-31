@@ -95,6 +95,18 @@
 				"url": "{{server}}"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "ad1a5f6d-4e16-4cf4-887f-6740251c1075",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
