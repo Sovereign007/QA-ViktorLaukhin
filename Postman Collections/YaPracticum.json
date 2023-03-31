@@ -634,7 +634,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 7",
+			"name": "Валидация параметра массы продуктов (5,9)",
 			"id": "1ba964db-da08-49db-9497-a06deb606353",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
