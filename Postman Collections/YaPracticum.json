@@ -1208,7 +1208,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy",
+			"name": "Валидация id товара в корзине числа с пробелом (3 4)",
 			"id": "f3aee681-6818-4b95-a4b5-b9c25c149c91",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
