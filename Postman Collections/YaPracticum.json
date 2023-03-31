@@ -1868,7 +1868,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 10",
+			"name": "Удаление корзины по невалидному id",
 			"id": "6fd765fa-fc68-4efe-ac5f-d8d96ebdc409",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
