@@ -1626,8 +1626,162 @@
 			"id": "34fe53cd-b985-41a4-bce4-516b3f80618c"
 		},
 		{
-			"name": "New Request Copy 9",
+			"name": "Получение списка продуктов из корзины",
 			"id": "6892b155-ffca-4686-9a54-350d6123c099",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "91f3cb80-786e-4d5f-a22d-b5c00cb2e81a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "13190609-0117-4e0f-af8c-945fa7bd8975",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "5373035e-499e-41db-8c8b-e24b399c77c6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "55f67412-b62f-4ca6-a076-34a4f4b559cc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "1fe92ca5-88b4-4667-a18f-04466de5c6bf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1650,6 +1804,72 @@
 		{
 			"name": "New Request Copy 9",
 			"id": "ee82683a-3573-4c2b-ba11-17e28a56ad62",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "8af876fc-4545-4d97-b49e-ffdd4e8a3c47",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "06c3603d-d75d-423d-a97e-a00835f96823",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 10",
+			"id": "6fd765fa-fc68-4efe-ac5f-d8d96ebdc409",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
