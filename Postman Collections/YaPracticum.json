@@ -1758,7 +1758,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 10",
+			"name": "Получение списка продуктов при верном id и пустом токене",
 			"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
