@@ -1030,7 +1030,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 8",
+			"name": "Параметр количества продуктов не передан в запросе",
 			"id": "61a0ded9-aedf-4933-b0ce-4251cf33f9a9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -1040,7 +1040,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "<InputModel>\n    <productsWeight>2.1</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
 					"options": {
 						"raw": {
 							"language": "xml"
@@ -1052,7 +1052,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 7",
+			"name": "Параметр массы продуктов не передан в запросе",
 			"id": "57847e97-e1c6-4d1d-9d9e-5fe5f613e448",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
