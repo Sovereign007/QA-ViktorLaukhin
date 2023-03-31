@@ -854,7 +854,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 6",
+			"name": "Некорректное количество товаров (NULL)",
 			"id": "2f6fffc9-a8ae-4dd6-9895-4e7cfa2e8664",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
