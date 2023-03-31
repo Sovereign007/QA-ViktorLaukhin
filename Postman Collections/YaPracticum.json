@@ -1428,7 +1428,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 3",
+			"name": "Количество товара в корзине (null)",
 			"id": "77e9b0e9-0ef6-4d62-a2de-1e9a770c271a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
