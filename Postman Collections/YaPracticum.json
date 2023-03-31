@@ -1190,7 +1190,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "POST",
+				"method": "DELETE",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -1201,7 +1201,7 @@
 						}
 					}
 				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+				"url": "{{server}}/api/v1/orders/id"
 			},
 			"response": []
 		},
