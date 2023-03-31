@@ -1096,7 +1096,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 8",
+			"name": "Запрос с пустым телом",
 			"id": "2032f34f-3b2e-4e04-b8ba-51b1a2bbedca",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
