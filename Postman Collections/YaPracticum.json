@@ -1296,8 +1296,118 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy",
+			"name": "Валидация количества товара в корзине спецсимвол (!!!)",
 			"id": "d3eb8860-eeb9-4160-b188-feee05470e20",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 2",
+			"id": "aa92f18f-61bf-4aed-9bf1-828c61fc14c8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 2",
+			"id": "e6021cf0-0427-4b5a-8786-f51f376a54be",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 2",
+			"id": "999dd089-5b4e-437d-a158-e15157fff023",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 2",
+			"id": "3c0f5186-c4aa-46a7-bd6c-0a25f6c3c224",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 2",
+			"id": "544d88b6-b150-40d0-a241-edea0bcda603",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
