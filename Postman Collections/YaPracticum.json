@@ -1494,7 +1494,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 3",
+			"name": "Нет склада, способного обработать заказ",
 			"id": "da205242-6ba2-4125-8f3f-04dc6e63ba25",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
