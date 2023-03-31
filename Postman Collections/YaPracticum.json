@@ -1128,7 +1128,30 @@
 			"item": [
 				{
 					"name": "Positive",
-					"item": [],
+					"item": [
+						{
+							"name": "Добавление товаров в корзину",
+							"id": "8ddc89ef-833a-4d51-a6ba-133bade13a84",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 4\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 2\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						}
+					],
 					"id": "d68f6a91-bdb9-49dd-a721-9e3cf58c43a9"
 				},
 				{
@@ -1140,29 +1163,7 @@
 			"id": "34fe53cd-b985-41a4-bce4-516b3f80618c"
 		},
 		{
-			"name": "Добавление товаров в корзину",
-			"id": "8ddc89ef-833a-4d51-a6ba-133bade13a84",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 4\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 2\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Добавление товаров в корзину Copy",
+			"name": "Валидация id товара в корзине строка (id)",
 			"id": "567a521c-6b1c-47f7-93ae-71835b097463",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
