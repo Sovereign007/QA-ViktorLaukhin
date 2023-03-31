@@ -1670,7 +1670,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 10",
+			"name": "Получение списка продуктов из несуществующей корзины",
 			"id": "13190609-0117-4e0f-af8c-945fa7bd8975",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
