@@ -1018,7 +1018,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>2</productsWeight>\n    <deliveryTime>20</deliveryTime>",
 					"options": {
 						"raw": {
 							"language": "xml"
