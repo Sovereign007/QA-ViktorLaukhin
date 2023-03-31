@@ -414,8 +414,184 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 3",
+			"name": "Валидация параметра количества продуктов (13)",
 			"id": "3794fe7b-58aa-4733-990b-207c26245039",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 4",
+			"id": "82327c41-2182-4d66-bc81-ead624252148",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 4",
+			"id": "48953bd7-1a71-41f2-9597-07c32ff0dded",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 4",
+			"id": "f8425f90-301c-42d2-95e5-92c73327f20e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 4",
+			"id": "6be0140f-7ba2-4b8e-9359-cf9e52655722",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 4",
+			"id": "96e38dc6-daab-41bb-aa08-39fe4b860f6b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 4",
+			"id": "c5f9a8f9-6d77-407f-9aab-4f6c21d029ab",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 5",
+			"id": "deb76742-b58d-4d8a-8d2a-ffeb7b3c9224",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 5",
+			"id": "0827f86a-b18c-4744-aff1-a1bad3e0a49b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
