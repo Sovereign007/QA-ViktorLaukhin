@@ -105,6 +105,15 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
 				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
 			},
 			"response": []
