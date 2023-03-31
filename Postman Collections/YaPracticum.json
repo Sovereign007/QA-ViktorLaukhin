@@ -1179,7 +1179,7 @@
 						}
 					}
 				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+				"url": "{{server}}/api/v1/orders/id"
 			},
 			"response": []
 		},
