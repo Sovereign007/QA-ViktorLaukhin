@@ -1824,7 +1824,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 10",
+			"name": "Удаление уже удаленной корзины",
 			"id": "8af876fc-4545-4d97-b49e-ffdd4e8a3c47",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
