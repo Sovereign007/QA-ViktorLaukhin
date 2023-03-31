@@ -1340,7 +1340,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 2",
+			"name": "Валидация количества товара в корзине (пустой параметр)",
 			"id": "e6021cf0-0427-4b5a-8786-f51f376a54be",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
