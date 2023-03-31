@@ -7,19 +7,6 @@
 	"item": [
 		{
 			"name": "Test Copy",
-			"id": "551e56a7-162a-422c-8444-222f535f38f2",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": "{{server}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Test Copy",
 			"id": "677e2320-30d4-4626-a322-f9b705551aeb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
