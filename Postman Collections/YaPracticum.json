@@ -1172,6 +1172,28 @@
 								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
+						},
+						{
+							"name": "Получение пустого списка продуктов из существующей корзины",
+							"id": "5373035e-499e-41db-8c8b-e24b399c77c6",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"Authorization\": {{validToken}}\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
 						}
 					],
 					"id": "d68f6a91-bdb9-49dd-a721-9e3cf58c43a9"
@@ -1692,29 +1714,7 @@
 			"id": "34fe53cd-b985-41a4-bce4-516b3f80618c"
 		},
 		{
-			"name": "Получение пустого списка продуктов из существующей корзины",
-			"id": "5373035e-499e-41db-8c8b-e24b399c77c6",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"Authorization\": {{validToken}}\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "New Request Copy 10",
+			"name": "Получение списка продуктов при верном id и неверном токене",
 			"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
