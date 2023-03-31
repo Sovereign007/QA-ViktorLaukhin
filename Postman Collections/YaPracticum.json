@@ -1262,7 +1262,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"productsList\": [\n        {\n            \"quantity\": 4\n        }\n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
