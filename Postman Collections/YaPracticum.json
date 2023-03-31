@@ -1230,7 +1230,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy",
+			"name": "Валидация id товара в корзине (пустой параметр)",
 			"id": "778d7551-9e79-409d-bad8-ebb751124495",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
