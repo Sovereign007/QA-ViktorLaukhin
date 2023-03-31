@@ -1252,7 +1252,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy",
+			"name": "Валидация id товара в корзине параметр не передан",
 			"id": "cbf09927-86d0-4fa6-acf1-59b83728d6d9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
