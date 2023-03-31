@@ -213,6 +213,50 @@
 			"name": "Negative /fast-delivery/v3.1.1/calculate-delivery.xml",
 			"item": [
 				{
+					"name": "Доступность доставки курьерской службой (22)Доступность доставки курьерской службой (22)",
+					"id": "a69da643-ce14-4bc1-8d7c-21abde77f659",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\n    <productsCount>10</productsCount>\n    <productsWeight>5.1</productsWeight>\n    <deliveryTime>22</deliveryTime>\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+					},
+					"response": []
+				},
+				{
+					"name": "Доступность доставки курьерской службой (3)",
+					"id": "1a5ec183-26ef-4c92-a9de-70459e61c489",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\n    <productsCount>10</productsCount>\n    <productsWeight>5.1</productsWeight>\n    <deliveryTime>3</deliveryTime>\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+					},
+					"response": []
+				},
+				{
 					"name": "Доступность доставки курьерской службой (06)Доступность доставки курьерской службой (06)",
 					"id": "1e34ffa5-dcab-4047-8ea4-0df606d59ee4",
 					"protocolProfileBehavior": {
@@ -238,51 +282,7 @@
 			"id": "18f15189-be6c-4ff2-b744-bacac6c5ef2a"
 		},
 		{
-			"name": "Доступность доставки курьерской службой (22)Доступность доставки курьерской службой (22)",
-			"id": "a69da643-ce14-4bc1-8d7c-21abde77f659",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "<InputModel>\n    <productsCount>10</productsCount>\n    <productsWeight>5.1</productsWeight>\n    <deliveryTime>22</deliveryTime>\n</InputModel>",
-					"options": {
-						"raw": {
-							"language": "xml"
-						}
-					}
-				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
-			},
-			"response": []
-		},
-		{
-			"name": "Доступность доставки курьерской службой (3)",
-			"id": "1a5ec183-26ef-4c92-a9de-70459e61c489",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "<InputModel>\n    <productsCount>10</productsCount>\n    <productsWeight>5.1</productsWeight>\n    <deliveryTime>3</deliveryTime>\n</InputModel>",
-					"options": {
-						"raw": {
-							"language": "xml"
-						}
-					}
-				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
-			},
-			"response": []
-		},
-		{
-			"name": "New Request Copy 3",
+			"name": "Валидация параметра количества продуктов (0)",
 			"id": "5680392c-c9c9-4c5b-8cba-af6f8ea96059",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
