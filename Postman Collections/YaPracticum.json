@@ -1504,7 +1504,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 200\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 300\n        }\n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
