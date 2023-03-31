@@ -1538,7 +1538,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 3",
+			"name": "Валидация id корзины строка (id)",
 			"id": "627095e4-20f1-4be8-a7da-5de4d2fe674b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
