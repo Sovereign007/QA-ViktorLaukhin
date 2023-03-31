@@ -97,8 +97,30 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Логика расчета стоимости доставки курьерской службой. Вес товаров (0-2,5), количество товаров (0-7)",
 			"id": "ad1a5f6d-4e16-4cf4-887f-6740251c1075",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"id": "43fdcc8f-1ee5-417d-a830-aa6ae4ccdf79",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
