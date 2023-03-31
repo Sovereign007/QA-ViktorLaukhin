@@ -964,7 +964,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 8",
+			"name": "Пустое поле количества товаров",
 			"id": "6a84a376-07aa-44d8-911d-78ffc68c7b8f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
