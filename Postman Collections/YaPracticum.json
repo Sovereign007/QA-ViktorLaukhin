@@ -6,8 +6,86 @@
 	},
 	"item": [
 		{
-			"name": "Test",
-			"id": "253f20aa-67b8-40ff-aeab-1dc9845cf815",
+			"name": "Test Copy",
+			"id": "551e56a7-162a-422c-8444-222f535f38f2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{server}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Copy",
+			"id": "677e2320-30d4-4626-a322-f9b705551aeb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{server}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Copy",
+			"id": "3bb541ea-482b-4f15-ad89-cf1182a9e315",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{server}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Copy",
+			"id": "fd176bf5-ed46-4857-837b-56351ab413aa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{server}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Copy",
+			"id": "46a9a1e2-d736-44d1-80e8-73674e3319e2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{server}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Copy",
+			"id": "49b98d25-6492-49c1-b624-d9475c8d8c0d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{server}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Copy",
+			"id": "c14281aa-b132-428f-8a8e-2086e3138180",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
