@@ -1118,6 +1118,11 @@
 			"id": "18f15189-be6c-4ff2-b744-bacac6c5ef2a"
 		},
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "6406d7c7-f8d4-4d05-a8ee-5b98e6e2ee16"
+		},
+		{
 			"name": "New Request Copy 8",
 			"id": "8ddc89ef-833a-4d51-a6ba-133bade13a84",
 			"protocolProfileBehavior": {
