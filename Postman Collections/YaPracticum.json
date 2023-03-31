@@ -1194,6 +1194,28 @@
 								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
+						},
+						{
+							"name": "Удаление существующей корзины",
+							"id": "ee82683a-3573-4c2b-ba11-17e28a56ad62",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
 						}
 					],
 					"id": "d68f6a91-bdb9-49dd-a721-9e3cf58c43a9"
@@ -1802,28 +1824,6 @@
 			"id": "34fe53cd-b985-41a4-bce4-516b3f80618c"
 		},
 		{
-			"name": "Удаление существующей корзины",
-			"id": "ee82683a-3573-4c2b-ba11-17e28a56ad62",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
 			"name": "Удаление уже удаленной корзины",
 			"id": "8af876fc-4545-4d97-b49e-ffdd4e8a3c47",
 			"protocolProfileBehavior": {
@@ -1846,7 +1846,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 10",
+			"name": "Удаление несуществующей корзины",
 			"id": "06c3603d-d75d-423d-a97e-a00835f96823",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
