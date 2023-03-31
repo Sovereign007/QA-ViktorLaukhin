@@ -535,6 +535,116 @@
 						"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
 					},
 					"response": []
+				},
+				{
+					"name": "Валидация параметра массы продуктов (2,7)",
+					"id": "5ab34ca9-aa29-43fd-b071-95944b35df6f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>2.7</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+					},
+					"response": []
+				},
+				{
+					"name": "Валидация параметра массы продуктов (5,9)",
+					"id": "1ba964db-da08-49db-9497-a06deb606353",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>5.9</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+					},
+					"response": []
+				},
+				{
+					"name": "Валидация параметра массы продуктов (6)",
+					"id": "8d717eb2-8de8-4966-b1c3-bfcd5868d964",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>6</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+					},
+					"response": []
+				},
+				{
+					"name": "Валидация параметра массы продуктов (6,1)",
+					"id": "523b4450-a1b1-4c0d-918a-938c8b9ee7f8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>6.1</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+					},
+					"response": []
+				},
+				{
+					"name": "Валидация параметра массы продуктов (7)",
+					"id": "d0d262fb-d9d1-4ebe-894d-8058be414353",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>7</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+					},
+					"response": []
 				}
 			],
 			"id": "6fb4043d-5459-418d-98dc-fc6c25538912"
@@ -612,117 +722,7 @@
 			"id": "18f15189-be6c-4ff2-b744-bacac6c5ef2a"
 		},
 		{
-			"name": "Валидация параметра массы продуктов (2,7)",
-			"id": "5ab34ca9-aa29-43fd-b071-95944b35df6f",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>2.7</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
-					"options": {
-						"raw": {
-							"language": "xml"
-						}
-					}
-				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация параметра массы продуктов (5,9)",
-			"id": "1ba964db-da08-49db-9497-a06deb606353",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>5.9</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
-					"options": {
-						"raw": {
-							"language": "xml"
-						}
-					}
-				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация параметра массы продуктов (6)",
-			"id": "8d717eb2-8de8-4966-b1c3-bfcd5868d964",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>6</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
-					"options": {
-						"raw": {
-							"language": "xml"
-						}
-					}
-				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация параметра массы продуктов (6,1)",
-			"id": "523b4450-a1b1-4c0d-918a-938c8b9ee7f8",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>6.1</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
-					"options": {
-						"raw": {
-							"language": "xml"
-						}
-					}
-				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация параметра массы продуктов (7)",
-			"id": "d0d262fb-d9d1-4ebe-894d-8058be414353",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "<InputModel>\n    <productsCount>2</productsCount>\n    <productsWeight>7</productsWeight>\n    <deliveryTime>20</deliveryTime>\n</InputModel>",
-					"options": {
-						"raw": {
-							"language": "xml"
-						}
-					}
-				},
-				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
-			},
-			"response": []
-		},
-		{
-			"name": "New Request Copy 7",
+			"name": "Некорректная масса товаров (NULL)",
 			"id": "e61796bc-7f58-4f0b-8eac-c491dc9493fb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
