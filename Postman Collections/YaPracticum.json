@@ -1124,7 +1124,7 @@
 			"id": "6406d7c7-f8d4-4d05-a8ee-5b98e6e2ee16"
 		},
 		{
-			"name": "PUT /api/v1/orders/:id",
+			"name": "/api/v1/orders/:id",
 			"item": [],
 			"id": "34fe53cd-b985-41a4-bce4-516b3f80618c"
 		},
