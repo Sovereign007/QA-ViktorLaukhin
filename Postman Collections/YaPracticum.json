@@ -1780,7 +1780,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 10",
+			"name": "Получение списка продуктов при неверном id и верном токене",
 			"id": "1fe92ca5-88b4-4667-a18f-04466de5c6bf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
