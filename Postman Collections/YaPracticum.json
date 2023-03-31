@@ -1384,7 +1384,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 2",
+			"name": "Количество товара в корзине пустой массив",
 			"id": "3c0f5186-c4aa-46a7-bd6c-0a25f6c3c224",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
