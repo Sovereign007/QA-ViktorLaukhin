@@ -1450,7 +1450,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 3",
+			"name": "Пустое тело запроса",
 			"id": "c661bcf5-f25a-4d0f-91ab-7712d2991c9f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
