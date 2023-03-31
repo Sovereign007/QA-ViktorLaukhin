@@ -876,8 +876,250 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 6",
+			"name": "Некорректное количество товаров большое число (99999999)",
 			"id": "e707a538-c6f4-42db-982a-4d99a10ad57e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 7",
+			"id": "869cf138-44ea-4b93-87d5-4fa2b4a0a8c0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 7",
+			"id": "0b01b94c-69e9-4b2f-9a00-247d13048632",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 8",
+			"id": "d5df3ddb-387b-41e8-b25a-77355df13cdb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 8",
+			"id": "6a84a376-07aa-44d8-911d-78ffc68c7b8f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 7",
+			"id": "6ba7aa31-1f9f-4d38-b5c9-84de8cafadcd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 8",
+			"id": "ae136d88-3814-46dd-b9d9-5c2cea96cecd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 8",
+			"id": "61a0ded9-aedf-4933-b0ce-4251cf33f9a9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 7",
+			"id": "57847e97-e1c6-4d1d-9d9e-5fe5f613e448",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 8",
+			"id": "4dd25985-56c5-475d-95f3-2f8296eec7a8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 8",
+			"id": "2032f34f-3b2e-4e04-b8ba-51b1a2bbedca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 8",
+			"id": "8ddc89ef-833a-4d51-a6ba-133bade13a84",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
