@@ -1008,7 +1008,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 8",
+			"name": "Запрос без закрывающего тега </InputModel>",
 			"id": "ae136d88-3814-46dd-b9d9-5c2cea96cecd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
