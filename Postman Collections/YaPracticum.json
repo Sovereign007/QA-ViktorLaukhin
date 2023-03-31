@@ -810,7 +810,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 6",
+			"name": "Некорректная масса товаров (пробел между числами)",
 			"id": "37d9aae3-0c86-47f7-832e-8e1ee57acc66",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
