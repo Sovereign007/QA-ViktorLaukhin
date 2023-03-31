@@ -1178,6 +1178,336 @@
 								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
+						},
+						{
+							"name": "Валидация id товара в корзине спецсимвол (!!!)",
+							"id": "d7555838-cfc3-4986-ba1d-f148ac7dafa2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": !!!,\n            \"quantity\": 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Валидация id товара в корзине числа с пробелом (3 4)",
+							"id": "f3aee681-6818-4b95-a4b5-b9c25c149c91",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 3 4,\n            \"quantity\": 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Валидация id товара в корзине (пустой параметр)",
+							"id": "778d7551-9e79-409d-bad8-ebb751124495",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\":,\n            \"quantity\": 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Валидация id товара в корзине параметр не передан",
+							"id": "cbf09927-86d0-4fa6-acf1-59b83728d6d9",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"quantity\": 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Валидация количества товара в корзине строка (quantity)",
+							"id": "42c9c374-3d0d-4578-ac19-6632c070cc51",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": quantity\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Валидация количества товара в корзине спецсимвол (!!!)",
+							"id": "d3eb8860-eeb9-4160-b188-feee05470e20",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": !!!\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Валидация количества товара в корзине числа с пробелом (3 4)",
+							"id": "aa92f18f-61bf-4aed-9bf1-828c61fc14c8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 3 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Валидация количества товара в корзине (пустой параметр)",
+							"id": "e6021cf0-0427-4b5a-8786-f51f376a54be",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\":\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Валидация количества товара в корзине параметр не передан",
+							"id": "999dd089-5b4e-437d-a158-e15157fff023",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n              \"id\": 1\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Количество товара в корзине пустой массив",
+							"id": "3c0f5186-c4aa-46a7-bd6c-0a25f6c3c224",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": []\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "id товара в корзине (null)",
+							"id": "544d88b6-b150-40d0-a241-edea0bcda603",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": null,\n            \"quantity\": 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Количество товара в корзине (null)",
+							"id": "77e9b0e9-0ef6-4d62-a2de-1e9a770c271a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": null\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Пустое тело запроса",
+							"id": "c661bcf5-f25a-4d0f-91ab-7712d2991c9f",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Добавление товаров в несуществующую корзину",
+							"id": "5cc0834b-d6c9-47de-bc20-01392d98d319",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 4\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 2\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{invalidid}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Нет склада, способного обработать заказ",
+							"id": "da205242-6ba2-4125-8f3f-04dc6e63ba25",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 200\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 300\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
 						}
 					],
 					"id": "cea32315-7360-48ca-8a50-dfd6c1306ed2"
@@ -1186,8 +1516,8 @@
 			"id": "34fe53cd-b985-41a4-bce4-516b3f80618c"
 		},
 		{
-			"name": "Валидация id товара в корзине спецсимвол (!!!)",
-			"id": "d7555838-cfc3-4986-ba1d-f148ac7dafa2",
+			"name": "Валидация id корзины спецсимволы (!!!)",
+			"id": "af3ee09e-73e9-4539-a31f-2414555fa941",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1196,262 +1526,20 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": !!!,\n            \"quantity\": 4\n        }\n    ]\n}",
+					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 4\n        }\n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
+				"url": "{{server}}/api/v1/orders/!!!"
 			},
 			"response": []
 		},
 		{
-			"name": "Валидация id товара в корзине числа с пробелом (3 4)",
-			"id": "f3aee681-6818-4b95-a4b5-b9c25c149c91",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 3 4,\n            \"quantity\": 4\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация id товара в корзине (пустой параметр)",
-			"id": "778d7551-9e79-409d-bad8-ebb751124495",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\":,\n            \"quantity\": 4\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация id товара в корзине параметр не передан",
-			"id": "cbf09927-86d0-4fa6-acf1-59b83728d6d9",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"quantity\": 4\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация количества товара в корзине строка (quantity)",
-			"id": "42c9c374-3d0d-4578-ac19-6632c070cc51",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": quantity\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация количества товара в корзине спецсимвол (!!!)",
-			"id": "d3eb8860-eeb9-4160-b188-feee05470e20",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": !!!\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация количества товара в корзине числа с пробелом (3 4)",
-			"id": "aa92f18f-61bf-4aed-9bf1-828c61fc14c8",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 3 4\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация количества товара в корзине (пустой параметр)",
-			"id": "e6021cf0-0427-4b5a-8786-f51f376a54be",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\":\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Валидация количества товара в корзине параметр не передан",
-			"id": "999dd089-5b4e-437d-a158-e15157fff023",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n              \"id\": 1\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Количество товара в корзине пустой массив",
-			"id": "3c0f5186-c4aa-46a7-bd6c-0a25f6c3c224",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": []\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "id товара в корзине (null)",
-			"id": "544d88b6-b150-40d0-a241-edea0bcda603",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": null,\n            \"quantity\": 4\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Количество товара в корзине (null)",
-			"id": "77e9b0e9-0ef6-4d62-a2de-1e9a770c271a",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": null\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Пустое тело запроса",
-			"id": "c661bcf5-f25a-4d0f-91ab-7712d2991c9f",
+			"name": "Добавление товаров в корзину Copy 3",
+			"id": "627095e4-20f1-4be8-a7da-5de4d2fe674b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1472,8 +1560,8 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в несуществующую корзину",
-			"id": "5cc0834b-d6c9-47de-bc20-01392d98d319",
+			"name": "Добавление товаров в корзину Copy 4",
+			"id": "77c58c3e-5d4b-47f3-903c-39b70750054e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1482,29 +1570,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 4\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 2\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{invalidid}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Нет склада, способного обработать заказ",
-			"id": "da205242-6ba2-4125-8f3f-04dc6e63ba25",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 200\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 300\n        }\n    ]\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1516,8 +1582,8 @@
 			"response": []
 		},
 		{
-			"name": "Валидация id корзины спецсимволы (!!!)",
-			"id": "af3ee09e-73e9-4539-a31f-2414555fa941",
+			"name": "Добавление товаров в корзину Copy 4",
+			"id": "b2f96b3b-7fd2-459c-87a7-a4af06590043",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1526,20 +1592,152 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"\"productsList\"\": [\n        {\n            \"\"id\"\": 1,\n            \"\"quantity\"\": 4\n        }\n    ]\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "{{server}}/api/v1/orders/!!!"
+				"url": "{{server}}/api/v1/orders/{{id}}"
 			},
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 3",
-			"id": "627095e4-20f1-4be8-a7da-5de4d2fe674b",
+			"name": "Добавление товаров в корзину Copy 4",
+			"id": "b75c9e68-a693-471e-bfd2-56f0392c5f97",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 4",
+			"id": "ac164e12-31ca-4329-939c-88574ec1b4d3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 4",
+			"id": "3ba806a5-ccff-483b-b202-1218f3a26fea",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 5",
+			"id": "90a1e2c5-6956-43dc-b04c-ec21fba321a0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 5",
+			"id": "d3f1806a-6bba-40c5-b3d5-43515a0611fd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 5",
+			"id": "7db1eb47-2cb8-45aa-9df8-1f052853ca86",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server}}/api/v1/orders/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление товаров в корзину Copy 5",
+			"id": "237d5775-c965-4532-8550-de87a30d3f63",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
