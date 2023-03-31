@@ -20,19 +20,6 @@
 		},
 		{
 			"name": "Test Copy",
-			"id": "3bb541ea-482b-4f15-ad89-cf1182a9e315",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": "{{server}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Test Copy",
 			"id": "fd176bf5-ed46-4857-837b-56351ab413aa",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
