@@ -1274,7 +1274,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy",
+			"name": "Валидация количества товара в корзине строка (quantity)",
 			"id": "42c9c374-3d0d-4578-ac19-6632c070cc51",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
