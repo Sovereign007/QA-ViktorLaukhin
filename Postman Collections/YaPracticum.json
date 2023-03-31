@@ -766,7 +766,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 7",
+			"name": "Некорректная масса товаров строка (вес)",
 			"id": "d1ea5c05-88b9-4b72-89a3-d824d8e96652",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
