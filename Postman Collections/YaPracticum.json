@@ -1150,7 +1150,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 4\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 2\n        }\n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
