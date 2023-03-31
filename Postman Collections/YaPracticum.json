@@ -832,7 +832,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 6",
+			"name": "Пустое поле массы товаров",
 			"id": "d0acfd7b-3577-48bb-b0c6-a712d2f7a664",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
