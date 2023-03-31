@@ -942,7 +942,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 8",
+			"name": "Некорректное количество товаров (пробел между числами)",
 			"id": "d5df3ddb-387b-41e8-b25a-77355df13cdb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
