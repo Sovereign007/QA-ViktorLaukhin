@@ -304,7 +304,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 3",
+			"name": "Валидация параметра количества продуктов (1)",
 			"id": "fb4217a1-45bd-4368-8ec2-0bcf813f7b3f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
