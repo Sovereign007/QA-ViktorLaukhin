@@ -1706,6 +1706,94 @@
 								"url": "{{server}}/api/v1/orders/{{invalidid}}"
 							},
 							"response": []
+						},
+						{
+							"name": "Получение списка продуктов при верном id и неверном токене",
+							"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"Authorization\": {{invalidToken}}\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Получение списка продуктов при неверном id и верном токене",
+							"id": "55f67412-b62f-4ca6-a076-34a4f4b559cc",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"Authorization\": {{validToken}}\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{invalidid}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Получение списка продуктов при верном id и пустом токене",
+							"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"Authorization\": {{emptyToken}}\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Получение списка продуктов при неверном id и верном токене",
+							"id": "1fe92ca5-88b4-4667-a18f-04466de5c6bf",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"Authorization\": {{validToken}}\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{invalidid}}"
+							},
+							"response": []
 						}
 					],
 					"id": "cea32315-7360-48ca-8a50-dfd6c1306ed2"
@@ -1714,95 +1802,7 @@
 			"id": "34fe53cd-b985-41a4-bce4-516b3f80618c"
 		},
 		{
-			"name": "Получение списка продуктов при верном id и неверном токене",
-			"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"Authorization\": {{invalidToken}}\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Получение списка продуктов при неверном id и верном токене",
-			"id": "55f67412-b62f-4ca6-a076-34a4f4b559cc",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"Authorization\": {{validToken}}\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{invalidid}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Получение списка продуктов при верном id и пустом токене",
-			"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"Authorization\": {{emptyToken}}\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Получение списка продуктов при неверном id и верном токене",
-			"id": "1fe92ca5-88b4-4667-a18f-04466de5c6bf",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"Authorization\": {{validToken}}\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{invalidid}}"
-			},
-			"response": []
-		},
-		{
-			"name": "New Request Copy 9",
+			"name": "Удаление существующей корзины",
 			"id": "ee82683a-3573-4c2b-ba11-17e28a56ad62",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
