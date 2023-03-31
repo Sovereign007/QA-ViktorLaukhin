@@ -1516,7 +1516,7 @@
 			"response": []
 		},
 		{
-			"name": "Добавление товаров в корзину Copy 3",
+			"name": "Валидация id корзины спецсимволы (!!!)",
 			"id": "af3ee09e-73e9-4539-a31f-2414555fa941",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
