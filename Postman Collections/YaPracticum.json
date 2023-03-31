@@ -1636,7 +1636,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"Authorization\": {{validToken}}\n}",
 					"options": {
 						"raw": {
 							"language": "json"
