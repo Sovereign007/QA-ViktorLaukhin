@@ -986,7 +986,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request Copy 7",
+			"name": "Пустой запрос",
 			"id": "6ba7aa31-1f9f-4d38-b5c9-84de8cafadcd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
