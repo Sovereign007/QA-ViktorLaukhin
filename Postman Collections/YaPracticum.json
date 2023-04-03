@@ -656,7 +656,7 @@
 					"name": "Negative",
 					"item": [
 						{
-							"name": "Доступность доставки курьерской службой (22)Доступность доставки курьерской службой (22)",
+							"name": "Доступность доставки курьерской службой (22)",
 							"id": "a69da643-ce14-4bc1-8d7c-21abde77f659",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
