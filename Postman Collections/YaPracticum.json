@@ -1734,7 +1734,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{validToken}}"
+										"token": "{{invalidToken}}"
 									}
 								},
 								"method": "GET",
@@ -1769,14 +1769,17 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{validToken}}"
-									}
-								},
 								"method": "GET",
 								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"Authorization\": {{validToken}}\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": "{{server}}/api/v1/orders/{{invalidid}}"
 							},
 							"response": []
@@ -1788,14 +1791,17 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{emptyToken}}"
-									}
-								},
 								"method": "GET",
 								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"Authorization\": {{emptyToken}}\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
