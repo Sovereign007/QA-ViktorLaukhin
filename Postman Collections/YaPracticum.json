@@ -1715,7 +1715,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "{{invalidToken}}"
+										"token": "{{emptyToken}}"
 									}
 								},
 								"method": "GET",
