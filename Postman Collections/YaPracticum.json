@@ -1192,15 +1192,6 @@
 								},
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
 								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
@@ -1212,17 +1203,14 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"Authorization\": {{validToken}}\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{validToken}}"
 									}
 								},
+								"method": "GET",
+								"header": [],
 								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
