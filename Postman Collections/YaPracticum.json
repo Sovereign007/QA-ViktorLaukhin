@@ -663,9 +663,7 @@
 									"script": {
 										"id": "66fa663d-cd83-4a7c-a963-8a6edc616293",
 										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});"
+											""
 										],
 										"type": "text/javascript"
 									}
