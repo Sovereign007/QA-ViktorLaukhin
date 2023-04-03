@@ -320,7 +320,7 @@
 							"response": []
 						},
 						{
-							"name": "Валидация параметра количества продуктов (9)Валидация параметра количества продуктов (9)",
+							"name": "Валидация параметра количества продуктов (9)",
 							"id": "e4302049-9728-46dd-b179-1ad655d57220",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1816,6 +1816,72 @@
 								"url": "{{server}}/api/v1/orders/{{invalidid}}"
 							},
 							"response": []
+						},
+						{
+							"name": "Удаление уже удаленной корзины",
+							"id": "8af876fc-4545-4d97-b49e-ffdd4e8a3c47",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Удаление несуществующей корзины",
+							"id": "06c3603d-d75d-423d-a97e-a00835f96823",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{invalidid}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Удаление корзины по невалидному id",
+							"id": "6fd765fa-fc68-4efe-ac5f-d8d96ebdc409",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/shoppingcart"
+							},
+							"response": []
 						}
 					],
 					"id": "cea32315-7360-48ca-8a50-dfd6c1306ed2"
@@ -1824,68 +1890,47 @@
 			"id": "34fe53cd-b985-41a4-bce4-516b3f80618c"
 		},
 		{
-			"name": "Удаление уже удаленной корзины",
-			"id": "8af876fc-4545-4d97-b49e-ffdd4e8a3c47",
+			"name": "Получение токена авторизации",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "88ff11b2-c09c-4d2b-916e-aa905e1846eb",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "7cf49b80-0d16-4c04-b4bd-814c77a656f8",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"pm.environment.set(\"validToken\", jsonData.authToken);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "30ce79e1-ea42-4bcd-b445-b3e4a58c7f97",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "DELETE",
+				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"firstName\": \"Анатолий\",\n    \"phone\": \"+79995553322\",\n    \"address\": \"г. Москва, ул. Пушкина, д. 10\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
 				},
-				"url": "{{server}}/api/v1/orders/{{id}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Удаление несуществующей корзины",
-			"id": "06c3603d-d75d-423d-a97e-a00835f96823",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/{{invalidid}}"
-			},
-			"response": []
-		},
-		{
-			"name": "Удаление корзины по невалидному id",
-			"id": "6fd765fa-fc68-4efe-ac5f-d8d96ebdc409",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "DELETE",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders/shoppingcart"
+				"url": "{{server}}/api/v1/users"
 			},
 			"response": []
 		}
