@@ -1712,12 +1712,6 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{emptyToken}}"
-									}
-								},
 								"method": "GET",
 								"header": [],
 								"url": "{{server}}/api/v1/orders/{{id}}"
