@@ -1712,17 +1712,14 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{invalidToken}}"
 									}
 								},
+								"method": "GET",
+								"header": [],
 								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
