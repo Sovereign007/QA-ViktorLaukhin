@@ -1179,6 +1179,24 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (06)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "ed167db1-7da6-46c3-9b6b-40606377216e",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('isItPossibleToDeliver=\"false\"');",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "1e34ffa5-dcab-4047-8ea4-0df606d59ee4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
