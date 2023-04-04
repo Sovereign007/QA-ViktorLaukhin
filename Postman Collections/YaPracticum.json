@@ -481,6 +481,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (8)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "883e8344-b1be-41a8-8b5f-41cd14717f01",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "62557a80-6601-47f8-a151-1cbc9ee38b4a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -503,6 +517,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (9)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "ac537d6a-7685-462e-a6b5-1d0bd2ab2679",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "e4302049-9728-46dd-b179-1ad655d57220",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -525,6 +553,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (13)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "442cdfd6-d6e5-435a-88cf-afe767e9458d",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "3794fe7b-58aa-4733-990b-207c26245039",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
