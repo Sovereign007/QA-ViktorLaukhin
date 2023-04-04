@@ -1651,6 +1651,20 @@
 						},
 						{
 							"name": "Пустой запрос",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "fbae83b0-1cd9-4dbe-b7ae-9618647b1849",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "6ba7aa31-1f9f-4d38-b5c9-84de8cafadcd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
