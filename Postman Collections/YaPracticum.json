@@ -2560,6 +2560,20 @@
 						},
 						{
 							"name": "Нет склада, способного обработать заказ",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "8722ea39-f6dd-427f-91c3-a43f4d5cac37",
+										"exec": [
+											"pm.test(\"Status code is 409\", function () {",
+											"    pm.response.to.have.status(409);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "da205242-6ba2-4125-8f3f-04dc6e63ba25",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
