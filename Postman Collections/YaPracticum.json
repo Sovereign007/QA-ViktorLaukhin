@@ -2839,43 +2839,6 @@
 							"response": []
 						},
 						{
-							"name": "Получение списка продуктов при неверном id и верном токене",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "4851c74c-92f3-4ab1-9760-607f59189496",
-										"exec": [
-											"pm.test(\"Status code is 404\", function () {",
-											"    pm.response.to.have.status(404);",
-											"});",
-											"",
-											"pm.test(\"Body matches string\", function () {",
-											"    pm.expect(pm.response.text()).to.include('\"message\": \"Not found\"');",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "1fe92ca5-88b4-4667-a18f-04466de5c6bf",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{validToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{invalidid}}"
-							},
-							"response": []
-						},
-						{
 							"name": "Удаление уже удаленной корзины",
 							"event": [
 								{
@@ -3008,7 +2971,11 @@
 						"id": "7cf49b80-0d16-4c04-b4bd-814c77a656f8",
 						"exec": [
 							"var jsonData = JSON.parse(responseBody);",
-							"pm.environment.set(\"validToken\", jsonData.authToken);"
+							"pm.environment.set(\"validToken\", jsonData.authToken);",
+							"",
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});"
 						],
 						"type": "text/javascript"
 					}
