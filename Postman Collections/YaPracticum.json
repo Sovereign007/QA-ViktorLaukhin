@@ -1946,33 +1946,6 @@
 							"response": []
 						},
 						{
-							"name": "Получение списка продуктов из корзины без авторизации",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "5453e81e-406d-44a0-a808-490feee571b7",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "91f3cb80-786e-4d5f-a22d-b5c00cb2e81a",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{id}}"
-							},
-							"response": []
-						},
-						{
 							"name": "Добавление товаров в корзину",
 							"event": [
 								{
@@ -2802,6 +2775,33 @@
 							"response": []
 						},
 						{
+							"name": "Получение списка продуктов из корзины без авторизации",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "5453e81e-406d-44a0-a808-490feee571b7",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "91f3cb80-786e-4d5f-a22d-b5c00cb2e81a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
 							"name": "Получение списка продуктов из несуществующей корзины",
 							"event": [
 								{
@@ -2822,43 +2822,6 @@
 								}
 							],
 							"id": "13190609-0117-4e0f-af8c-945fa7bd8975",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{validToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{invalidid}}"
-							},
-							"response": []
-						},
-						{
-							"name": "Получение списка продуктов при неверном id и верном токене",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "9fd6f785-687b-4a78-b0f9-c98cfeed61c0",
-										"exec": [
-											"pm.test(\"Status code is 404\", function () {",
-											"    pm.response.to.have.status(404);",
-											"});",
-											"",
-											"pm.test(\"Body matches string\", function () {",
-											"    pm.expect(pm.response.text()).to.include('\"message\": \"Not found\"');",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "55f67412-b62f-4ca6-a076-34a4f4b559cc",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
