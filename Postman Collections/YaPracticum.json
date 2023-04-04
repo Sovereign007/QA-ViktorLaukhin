@@ -2740,6 +2740,20 @@
 						},
 						{
 							"name": "Валидация id корзины параметр (null)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "2954fb7b-8fb2-44d7-8062-e86bcd597261",
+										"exec": [
+											"pm.test(\"Status code is 500\", function () {",
+											"    pm.response.to.have.status(500);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "b75c9e68-a693-471e-bfd2-56f0392c5f97",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
