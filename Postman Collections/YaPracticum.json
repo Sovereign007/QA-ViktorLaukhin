@@ -1255,6 +1255,20 @@
 						},
 						{
 							"name": "Некорректная масса товаров большое число (99999999)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "9ff76206-47af-4298-acd4-a19e37d84103",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "bde25321-ce82-405b-aee3-85be93e7013c",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1277,6 +1291,20 @@
 						},
 						{
 							"name": "Некорректная масса товаров строка (вес)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6f1eb28b-cc14-4336-9a25-1b370df26c46",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "d1ea5c05-88b9-4b72-89a3-d824d8e96652",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
