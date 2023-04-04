@@ -3052,6 +3052,20 @@
 						},
 						{
 							"name": "Удаление корзины по невалидному id",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6dac9f01-7ce8-43b0-8af4-ff77d759a1da",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "6fd765fa-fc68-4efe-ac5f-d8d96ebdc409",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
