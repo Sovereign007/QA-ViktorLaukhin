@@ -2596,6 +2596,20 @@
 						},
 						{
 							"name": "Валидация id корзины строка (id)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "28415ea2-3c36-4844-a180-c83f613e22a0",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "627095e4-20f1-4be8-a7da-5de4d2fe674b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
