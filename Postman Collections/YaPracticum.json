@@ -1939,6 +1939,24 @@
 						},
 						{
 							"name": "Удаление существующей корзины",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6cb0bd7e-a891-4084-a8c6-73025ce55225",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('\"ok\": true');",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "ee82683a-3573-4c2b-ba11-17e28a56ad62",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
