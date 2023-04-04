@@ -841,6 +841,20 @@
 						},
 						{
 							"name": "Валидация параметра массы продуктов (2,6)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "9a7ede3b-bb88-4107-966c-4ae4394e9009",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "0827f86a-b18c-4744-aff1-a1bad3e0a49b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
