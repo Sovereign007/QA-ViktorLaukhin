@@ -1831,6 +1831,20 @@
 						},
 						{
 							"name": "Запрос с пустым телом",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "aa63649f-3d51-4990-8a14-2ee76f9db930",
+										"exec": [
+											"pm.test(\"Status code is 500\", function () {",
+											"    pm.response.to.have.status(500);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "2032f34f-3b2e-4e04-b8ba-51b1a2bbedca",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
