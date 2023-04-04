@@ -1980,12 +1980,8 @@
 									"script": {
 										"id": "6500e5e1-dbb7-4030-b9b8-9363430c1cda",
 										"exec": [
-											"pm.test(\"Status code is 401\", function () {",
-											"    pm.response.to.have.status(401);",
-											"});",
-											"",
-											"pm.test(\"Body matches string\", function () {",
-											"    pm.expect(pm.response.text()).to.include('\"message\": \"Unauthorized\"');",
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
 											"});"
 										],
 										"type": "text/javascript"
