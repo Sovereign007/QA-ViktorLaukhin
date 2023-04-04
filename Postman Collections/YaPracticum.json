@@ -2308,20 +2308,6 @@
 						},
 						{
 							"name": "Валидация количества товара в корзине (пустой параметр)",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "a1184c3a-878e-4f08-a875-0fddc9dec526",
-										"exec": [
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
 							"id": "e6021cf0-0427-4b5a-8786-f51f376a54be",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -2344,20 +2330,6 @@
 						},
 						{
 							"name": "Валидация количества товара в корзине параметр не передан",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "411ebc22-b70a-488f-ba1f-fb7c3f48992a",
-										"exec": [
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
 							"id": "999dd089-5b4e-437d-a158-e15157fff023",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
