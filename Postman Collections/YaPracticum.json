@@ -2668,6 +2668,20 @@
 						},
 						{
 							"name": "Валидация id корзины числа с пробелом (3 4)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "00d04ec6-e590-4fca-9118-f660032335c5",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "77c58c3e-5d4b-47f3-903c-39b70750054e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
