@@ -2632,6 +2632,20 @@
 						},
 						{
 							"name": "Валидация id корзины спецсимволы (!!!)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "68c268d8-235f-4429-bfd9-ee38eb1124b6",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "af3ee09e-73e9-4539-a31f-2414555fa941",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
