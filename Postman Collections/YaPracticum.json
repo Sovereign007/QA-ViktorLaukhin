@@ -1615,6 +1615,20 @@
 						},
 						{
 							"name": "Пустое поле количества товаров",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "2014f9f5-a561-49e6-8b85-1546cbe9e113",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "6a84a376-07aa-44d8-911d-78ffc68c7b8f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
