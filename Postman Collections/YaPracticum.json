@@ -2704,6 +2704,20 @@
 						},
 						{
 							"name": "Валидация id корзины параметр не передан",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "f798259b-a228-4c72-8c3b-6552864e55b3",
+										"exec": [
+											"pm.test(\"Status code is 405\", function () {",
+											"    pm.response.to.have.status(405);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "b2f96b3b-7fd2-459c-87a7-a4af06590043",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
