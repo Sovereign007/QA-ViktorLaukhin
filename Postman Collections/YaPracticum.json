@@ -1801,8 +1801,8 @@
 									"script": {
 										"id": "7c5c4ba7-41c2-4aef-83cb-2223295777f5",
 										"exec": [
-											"pm.test(\"Status code is 500\", function () {",
-											"    pm.response.to.have.status(500);",
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
 											"});"
 										],
 										"type": "text/javascript"
