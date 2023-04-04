@@ -1693,8 +1693,8 @@
 									"script": {
 										"id": "18d5c80b-c59e-40e2-897f-9cb80593fa98",
 										"exec": [
-											"pm.test(\"Status code is 500\", function () {",
-											"    pm.response.to.have.status(500);",
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
 											"});"
 										],
 										"type": "text/javascript"
@@ -1729,8 +1729,8 @@
 									"script": {
 										"id": "fe0a0d88-998c-403d-b444-ade21221725f",
 										"exec": [
-											"pm.test(\"Status code is 500\", function () {",
-											"    pm.response.to.have.status(500);",
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
 											"});"
 										],
 										"type": "text/javascript"
@@ -1765,8 +1765,8 @@
 									"script": {
 										"id": "51c0e23b-e9f4-4c8a-bc29-02e2dc0b14be",
 										"exec": [
-											"pm.test(\"Status code is 500\", function () {",
-											"    pm.response.to.have.status(500);",
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
 											"});"
 										],
 										"type": "text/javascript"
