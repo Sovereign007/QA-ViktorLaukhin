@@ -1291,6 +1291,20 @@
 						},
 						{
 							"name": "Некорректная масса товаров строка (вес)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6f1eb28b-cc14-4336-9a25-1b370df26c46",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "d1ea5c05-88b9-4b72-89a3-d824d8e96652",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1313,6 +1327,20 @@
 						},
 						{
 							"name": "Некорректная масса товаров (!!!!!!)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "638e4c81-224d-46e8-986f-1d80b120f07c",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "70bc8b66-7644-464c-a175-2c962fe66b5f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1335,6 +1363,20 @@
 						},
 						{
 							"name": "Некорректная масса товаров (пробел между числами)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "b7f1120f-9d50-409a-ba4c-41d002212de0",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "37d9aae3-0c86-47f7-832e-8e1ee57acc66",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1357,6 +1399,20 @@
 						},
 						{
 							"name": "Пустое поле массы товаров",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "71c21f38-7658-423a-84fe-23fe5b328ff9",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "d0acfd7b-3577-48bb-b0c6-a712d2f7a664",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1379,6 +1435,20 @@
 						},
 						{
 							"name": "Некорректное количество товаров (NULL)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "174361de-a226-411a-a836-85e1e28047a2",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "2f6fffc9-a8ae-4dd6-9895-4e7cfa2e8664",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1401,6 +1471,20 @@
 						},
 						{
 							"name": "Некорректное количество товаров большое число (99999999)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "17cfcac0-0161-4007-90bb-c289d0b6412a",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "e707a538-c6f4-42db-982a-4d99a10ad57e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1423,6 +1507,20 @@
 						},
 						{
 							"name": "Некорректное количество товаров строка (количество)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "0d7a57ee-b314-4da9-8b41-b41132b76de0",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "869cf138-44ea-4b93-87d5-4fa2b4a0a8c0",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1445,6 +1543,20 @@
 						},
 						{
 							"name": "Некорректное количество товаров (!!!!!!)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "ddfc89ce-722a-48b4-a67d-a8592861de61",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "0b01b94c-69e9-4b2f-9a00-247d13048632",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1467,6 +1579,20 @@
 						},
 						{
 							"name": "Некорректное количество товаров (пробел между числами)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "9f0df832-b559-4717-a969-e8f669cdd0e3",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "d5df3ddb-387b-41e8-b25a-77355df13cdb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1489,6 +1615,20 @@
 						},
 						{
 							"name": "Пустое поле количества товаров",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "2014f9f5-a561-49e6-8b85-1546cbe9e113",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "6a84a376-07aa-44d8-911d-78ffc68c7b8f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1511,6 +1651,20 @@
 						},
 						{
 							"name": "Пустой запрос",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "fbae83b0-1cd9-4dbe-b7ae-9618647b1849",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "6ba7aa31-1f9f-4d38-b5c9-84de8cafadcd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1533,6 +1687,20 @@
 						},
 						{
 							"name": "Запрос без закрывающего тега </InputModel>",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "18d5c80b-c59e-40e2-897f-9cb80593fa98",
+										"exec": [
+											"pm.test(\"Status code is 500\", function () {",
+											"    pm.response.to.have.status(500);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "ae136d88-3814-46dd-b9d9-5c2cea96cecd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1555,6 +1723,20 @@
 						},
 						{
 							"name": "Параметр количества продуктов не передан в запросе",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "fe0a0d88-998c-403d-b444-ade21221725f",
+										"exec": [
+											"pm.test(\"Status code is 500\", function () {",
+											"    pm.response.to.have.status(500);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "61a0ded9-aedf-4933-b0ce-4251cf33f9a9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
