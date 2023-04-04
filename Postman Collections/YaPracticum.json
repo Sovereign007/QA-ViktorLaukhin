@@ -2428,6 +2428,24 @@
 						},
 						{
 							"name": "Получение списка продуктов из корзины без авторизации",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "5453e81e-406d-44a0-a808-490feee571b7",
+										"exec": [
+											"pm.test(\"Status code is 401\", function () {",
+											"    pm.response.to.have.status(401);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('\"message\": \"Unauthorized\"');",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "91f3cb80-786e-4d5f-a22d-b5c00cb2e81a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
