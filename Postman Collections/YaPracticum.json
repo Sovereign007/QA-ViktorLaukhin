@@ -2488,6 +2488,20 @@
 						},
 						{
 							"name": "Пустое тело запроса",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "99d51106-58fd-4e9f-a643-ab0521abf1ba",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "c661bcf5-f25a-4d0f-91ab-7712d2991c9f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
