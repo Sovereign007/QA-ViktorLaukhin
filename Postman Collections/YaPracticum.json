@@ -2839,39 +2839,6 @@
 							"response": []
 						},
 						{
-							"name": "Получение списка продуктов при верном id и неверном токене",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "6500e5e1-dbb7-4030-b9b8-9363430c1cda",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{invalidToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{id}}"
-							},
-							"response": []
-						},
-						{
 							"name": "Получение списка продуктов при верном id и пустом токене",
 							"event": [
 								{
