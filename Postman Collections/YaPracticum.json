@@ -1399,6 +1399,20 @@
 						},
 						{
 							"name": "Пустое поле массы товаров",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "71c21f38-7658-423a-84fe-23fe5b328ff9",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "d0acfd7b-3577-48bb-b0c6-a712d2f7a664",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
