@@ -193,6 +193,20 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (8)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "e97d3041-bcc0-4a27-8972-48a316044609",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "31f827d6-519f-458d-abf5-cc36adea5792",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
