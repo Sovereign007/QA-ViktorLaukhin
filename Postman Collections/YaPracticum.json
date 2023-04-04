@@ -2128,6 +2128,20 @@
 						},
 						{
 							"name": "Валидация id товара в корзине (пустой параметр)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "38ebc4ce-96a6-4b90-a0b8-6b8ec4d52636",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "778d7551-9e79-409d-bad8-ebb751124495",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
