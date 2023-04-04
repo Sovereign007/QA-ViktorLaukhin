@@ -445,6 +445,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (7)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "24b5fe92-4fed-4939-b07f-d3f3401175ef",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "e096613b-92b7-4374-b1f8-9010500ea8ec",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -467,6 +481,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (8)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "883e8344-b1be-41a8-8b5f-41cd14717f01",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "62557a80-6601-47f8-a151-1cbc9ee38b4a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
