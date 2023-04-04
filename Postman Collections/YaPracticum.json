@@ -1435,6 +1435,20 @@
 						},
 						{
 							"name": "Некорректное количество товаров (NULL)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "174361de-a226-411a-a836-85e1e28047a2",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "2f6fffc9-a8ae-4dd6-9895-4e7cfa2e8664",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
