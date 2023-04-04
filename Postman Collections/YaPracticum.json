@@ -2020,6 +2020,20 @@
 					"item": [
 						{
 							"name": "Валидация id товара в корзине строка (id)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "2d2aea51-5c04-4f89-b193-6ba40e7f3d61",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "567a521c-6b1c-47f7-93ae-71835b097463",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -2042,6 +2056,20 @@
 						},
 						{
 							"name": "Валидация id товара в корзине спецсимвол (!!!)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "aff9353b-677f-49e4-b3e3-1315c24f630f",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "d7555838-cfc3-4986-ba1d-f148ac7dafa2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
