@@ -2272,6 +2272,20 @@
 						},
 						{
 							"name": "Валидация количества товара в корзине числа с пробелом (3 4)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "beb0411f-3ca4-46ff-8338-a74d826761b5",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "aa92f18f-61bf-4aed-9bf1-828c61fc14c8",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -2294,6 +2308,20 @@
 						},
 						{
 							"name": "Валидация количества товара в корзине (пустой параметр)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "a1184c3a-878e-4f08-a875-0fddc9dec526",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "e6021cf0-0427-4b5a-8786-f51f376a54be",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
