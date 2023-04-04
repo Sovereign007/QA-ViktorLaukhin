@@ -373,6 +373,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (1)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "982b4e68-79c5-4485-ba7a-50a9958ef9f2",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "fb4217a1-45bd-4368-8ec2-0bcf813f7b3f",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
