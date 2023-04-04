@@ -229,6 +229,20 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (20)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "b3be5e68-9d79-4d39-809e-75c27a09e574",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "c63c4bde-3066-481e-8194-39e251f33f7b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
