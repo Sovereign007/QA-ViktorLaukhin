@@ -1759,6 +1759,20 @@
 						},
 						{
 							"name": "Параметр массы продуктов не передан в запросе",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "51c0e23b-e9f4-4c8a-bc29-02e2dc0b14be",
+										"exec": [
+											"pm.test(\"Status code is 500\", function () {",
+											"    pm.response.to.have.status(500);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "57847e97-e1c6-4d1d-9d9e-5fe5f613e448",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
