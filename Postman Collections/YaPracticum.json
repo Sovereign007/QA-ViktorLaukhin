@@ -2164,6 +2164,20 @@
 						},
 						{
 							"name": "Валидация id товара в корзине параметр не передан",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "b572f102-1a08-42fc-aecc-2c91bd4b2676",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "cbf09927-86d0-4fa6-acf1-59b83728d6d9",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
