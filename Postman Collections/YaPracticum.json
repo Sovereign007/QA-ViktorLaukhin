@@ -121,6 +121,20 @@
 						},
 						{
 							"name": "Логика расчета стоимости доставки курьерской службой. Вес товаров (2,6-6), количество товаров (8-14)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "d2546474-686e-46ae-a4de-027b06d8bafc",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "0a69cf88-1a06-48a5-b25b-2643de731f3e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -143,6 +157,20 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (7)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "72f6909a-5ab2-40da-852e-bac25d538ad7",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "48e560d2-810b-4379-bb9b-f39452f5e912",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
