@@ -1973,72 +1973,6 @@
 							"response": []
 						},
 						{
-							"name": "Получение списка продуктов при верном id и неверном токене",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "6500e5e1-dbb7-4030-b9b8-9363430c1cda",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{invalidToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{id}}"
-							},
-							"response": []
-						},
-						{
-							"name": "Получение списка продуктов при верном id и пустом токене",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "a76515b1-02ee-4948-97b6-90e091eb5a17",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{emptyToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{id}}"
-							},
-							"response": []
-						},
-						{
 							"name": "Добавление товаров в корзину",
 							"event": [
 								{
@@ -2942,7 +2876,91 @@
 							"response": []
 						},
 						{
+							"name": "Получение списка продуктов при верном id и неверном токене",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6500e5e1-dbb7-4030-b9b8-9363430c1cda",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{invalidToken}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Получение списка продуктов при верном id и пустом токене",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "a76515b1-02ee-4948-97b6-90e091eb5a17",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{emptyToken}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
 							"name": "Получение списка продуктов при неверном id и верном токене",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "4851c74c-92f3-4ab1-9760-607f59189496",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('\"message\": \"Not found\"');",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "1fe92ca5-88b4-4667-a18f-04466de5c6bf",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
