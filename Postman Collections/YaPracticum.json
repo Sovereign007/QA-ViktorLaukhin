@@ -1471,6 +1471,20 @@
 						},
 						{
 							"name": "Некорректное количество товаров большое число (99999999)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "17cfcac0-0161-4007-90bb-c289d0b6412a",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "e707a538-c6f4-42db-982a-4d99a10ad57e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
