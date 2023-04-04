@@ -301,6 +301,20 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (12)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "91d6f5c2-ab81-4a3d-be50-dce6415e8e37",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "358e2ddc-1ed3-4ba8-8f2b-6b55eff1b3f5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
