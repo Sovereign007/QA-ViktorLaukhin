@@ -553,6 +553,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (13)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "442cdfd6-d6e5-435a-88cf-afe767e9458d",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "3794fe7b-58aa-4733-990b-207c26245039",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -575,6 +589,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (14)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6832fc70-6036-4d63-9bf8-d0d1196401f6",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "82327c41-2182-4d66-bc81-ead624252148",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -597,6 +625,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (15)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "2426e07d-139d-491f-b702-0415190ff502",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "48953bd7-1a71-41f2-9597-07c32ff0dded",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -619,6 +661,20 @@
 						},
 						{
 							"name": "Валидация параметра количества продуктов (20)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "ba2c9525-fa45-45bb-85cc-a46d52962bd2",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "f8425f90-301c-42d2-95e5-92c73327f20e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
