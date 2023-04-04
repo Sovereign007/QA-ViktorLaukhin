@@ -1946,6 +1946,89 @@
 							"response": []
 						},
 						{
+							"name": "Получение списка продуктов из корзины без авторизации",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "5453e81e-406d-44a0-a808-490feee571b7",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "91f3cb80-786e-4d5f-a22d-b5c00cb2e81a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Получение списка продуктов при верном id и неверном токене",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6500e5e1-dbb7-4030-b9b8-9363430c1cda",
+										"exec": [
+											"pm.test(\"Status code is 401\", function () {",
+											"    pm.response.to.have.status(401);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('\"message\": \"Unauthorized\"');",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{invalidToken}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Получение списка продуктов при верном id и пустом токене",
+							"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{emptyToken}}"
+									}
+								},
+								"method": "GET",
+								"header": [],
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
 							"name": "Добавление товаров в корзину",
 							"event": [
 								{
@@ -2775,37 +2858,6 @@
 							"response": []
 						},
 						{
-							"name": "Получение списка продуктов из корзины без авторизации",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "5453e81e-406d-44a0-a808-490feee571b7",
-										"exec": [
-											"pm.test(\"Status code is 401\", function () {",
-											"    pm.response.to.have.status(401);",
-											"});",
-											"",
-											"pm.test(\"Body matches string\", function () {",
-											"    pm.expect(pm.response.text()).to.include('\"message\": \"Unauthorized\"');",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "91f3cb80-786e-4d5f-a22d-b5c00cb2e81a",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{id}}"
-							},
-							"response": []
-						},
-						{
 							"name": "Получение списка продуктов из несуществующей корзины",
 							"event": [
 								{
@@ -2843,43 +2895,6 @@
 							"response": []
 						},
 						{
-							"name": "Получение списка продуктов при верном id и неверном токене",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "6500e5e1-dbb7-4030-b9b8-9363430c1cda",
-										"exec": [
-											"pm.test(\"Status code is 401\", function () {",
-											"    pm.response.to.have.status(401);",
-											"});",
-											"",
-											"pm.test(\"Body matches string\", function () {",
-											"    pm.expect(pm.response.text()).to.include('\"message\": \"Unauthorized\"');",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "8f8dcccf-25df-42bc-a62e-f229c3a4651b",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{invalidToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{id}}"
-							},
-							"response": []
-						},
-						{
 							"name": "Получение списка продуктов при неверном id и верном токене",
 							"event": [
 								{
@@ -2913,25 +2928,6 @@
 								"method": "GET",
 								"header": [],
 								"url": "{{server}}/api/v1/orders/{{invalidid}}"
-							},
-							"response": []
-						},
-						{
-							"name": "Получение списка продуктов при верном id и пустом токене",
-							"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{emptyToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
 						},
