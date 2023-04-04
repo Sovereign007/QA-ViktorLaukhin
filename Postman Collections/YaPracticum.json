@@ -2007,6 +2007,20 @@
 						},
 						{
 							"name": "Получение списка продуктов при верном id и пустом токене",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "a76515b1-02ee-4948-97b6-90e091eb5a17",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "c250ba84-5c35-48bc-b6bc-213d0f5c10d1",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
