@@ -2881,6 +2881,24 @@
 						},
 						{
 							"name": "Получение списка продуктов при неверном id и верном токене",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "9fd6f785-687b-4a78-b0f9-c98cfeed61c0",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('\"message\": \"Not found\"');",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "55f67412-b62f-4ca6-a076-34a4f4b559cc",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
