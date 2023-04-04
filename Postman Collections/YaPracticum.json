@@ -2784,6 +2784,10 @@
 										"exec": [
 											"pm.test(\"Status code is 401\", function () {",
 											"    pm.response.to.have.status(401);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('\"message\": \"Unauthorized\"');",
 											"});"
 										],
 										"type": "text/javascript"
