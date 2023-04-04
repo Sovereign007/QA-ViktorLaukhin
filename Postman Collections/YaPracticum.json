@@ -2478,6 +2478,24 @@
 						},
 						{
 							"name": "Получение списка продуктов из несуществующей корзины",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "b82d7630-3dd4-4dc7-9f5f-de059e8b97f6",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('\"message\": \"Not found\"');",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "13190609-0117-4e0f-af8c-945fa7bd8975",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
