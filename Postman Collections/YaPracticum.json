@@ -1219,6 +1219,20 @@
 						},
 						{
 							"name": "Некорректная масса товаров (NULL)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "c7c6858d-f86e-4dde-a1cd-2135a93d538e",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "e61796bc-7f58-4f0b-8eac-c491dc9493fb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
