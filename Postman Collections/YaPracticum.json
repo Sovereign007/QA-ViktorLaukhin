@@ -1947,6 +1947,20 @@
 						},
 						{
 							"name": "Добавление товаров в корзину",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "221f522e-a71c-427a-a085-3fa07b6c8c30",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "8ddc89ef-833a-4d51-a6ba-133bade13a84",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
