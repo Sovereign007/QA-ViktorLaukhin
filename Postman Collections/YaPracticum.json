@@ -2524,6 +2524,20 @@
 						},
 						{
 							"name": "Добавление товаров в несуществующую корзину",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "8373aba4-a74c-4c9e-84e5-cd8fa1c58ad5",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "5cc0834b-d6c9-47de-bc20-01392d98d319",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
