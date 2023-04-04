@@ -1878,24 +1878,37 @@
 					"name": "Positive",
 					"item": [
 						{
-							"name": "Добавление товаров в корзину",
-							"id": "8ddc89ef-833a-4d51-a6ba-133bade13a84",
+							"name": "Создание корзины",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "c125651e-74d8-42a8-9e0c-5b7bad3093ca",
+										"exec": [
+											"var jsonData = JSON.parse(responseBody);",
+											"pm.environment.set(\"id\", jsonData.id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "c5e9c2fb-f1d0-4cda-bfbc-0e6527469793",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "PUT",
+								"method": "POST",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 4\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 2\n        }\n    ]\n}",
+									"raw": "{\n  \"productsList\": [\n    {\n      \"id\": 1,\n      \"quantity\": 2\n    }\n  ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{server}}/api/v1/orders/{{id}}"
+								"url": "{{server}}/api/v1/orders"
 							},
 							"response": []
 						},
@@ -1914,6 +1927,28 @@
 								},
 								"method": "GET",
 								"header": [],
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
+							"name": "Добавление товаров в корзину",
+							"id": "8ddc89ef-833a-4d51-a6ba-133bade13a84",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 4\n        },\n        {\n            \"id\": 5,\n            \"quantity\": 2\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": "{{server}}/api/v1/orders/{{id}}"
 							},
 							"response": []
@@ -2675,28 +2710,6 @@
 					}
 				},
 				"url": "{{server}}/api/v1/users"
-			},
-			"response": []
-		},
-		{
-			"name": "Создание корзины",
-			"id": "c5e9c2fb-f1d0-4cda-bfbc-0e6527469793",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n  \"productsList\": [\n    {\n      \"id\": 1,\n      \"quantity\": 2\n    }\n  ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "{{server}}/api/v1/orders"
 			},
 			"response": []
 		}
