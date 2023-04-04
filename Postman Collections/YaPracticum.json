@@ -1139,6 +1139,24 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (3)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "e81c2708-ebce-4b9e-9682-9cee372b159e",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Body matches string\", function () {",
+											"    pm.expect(pm.response.text()).to.include('isItPossibleToDeliver=\"false\"');",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "1a5ec183-26ef-4c92-a9de-70459e61c489",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
