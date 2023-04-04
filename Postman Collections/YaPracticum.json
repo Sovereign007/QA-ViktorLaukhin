@@ -3016,6 +3016,20 @@
 						},
 						{
 							"name": "Удаление несуществующей корзины",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "a696bfdd-0a7c-4a55-84c4-4e761f2e5d6b",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "06c3603d-d75d-423d-a97e-a00835f96823",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
