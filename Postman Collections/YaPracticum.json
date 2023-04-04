@@ -1507,6 +1507,20 @@
 						},
 						{
 							"name": "Некорректное количество товаров строка (количество)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "0d7a57ee-b314-4da9-8b41-b41132b76de0",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "869cf138-44ea-4b93-87d5-4fa2b4a0a8c0",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
