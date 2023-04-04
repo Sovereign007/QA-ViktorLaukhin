@@ -1914,6 +1914,20 @@
 						},
 						{
 							"name": "Получение списка продуктов из корзины",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "cdeaf9d3-8385-4187-8259-7e81adb7bdc4",
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {",
+											"    pm.response.to.have.status(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "6892b155-ffca-4686-9a54-350d6123c099",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
