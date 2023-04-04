@@ -2236,6 +2236,20 @@
 						},
 						{
 							"name": "Валидация количества товара в корзине спецсимвол (!!!)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "10bc4421-826b-4e67-910e-84f906ddad75",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "d3eb8860-eeb9-4160-b188-feee05470e20",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
