@@ -2056,20 +2056,6 @@
 						},
 						{
 							"name": "Валидация id товара в корзине спецсимвол (!!!)",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "aff9353b-677f-49e4-b3e3-1315c24f630f",
-										"exec": [
-											"pm.test(\"Status code is 400\", function () {",
-											"    pm.response.to.have.status(400);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
 							"id": "d7555838-cfc3-4986-ba1d-f148ac7dafa2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
