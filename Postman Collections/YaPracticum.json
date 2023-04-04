@@ -1363,6 +1363,20 @@
 						},
 						{
 							"name": "Некорректная масса товаров (пробел между числами)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "b7f1120f-9d50-409a-ba4c-41d002212de0",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "37d9aae3-0c86-47f7-832e-8e1ee57acc66",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
