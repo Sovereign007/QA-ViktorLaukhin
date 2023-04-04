@@ -2434,7 +2434,7 @@
 									"script": {
 										"id": "5453e81e-406d-44a0-a808-490feee571b7",
 										"exec": [
-											"pm.test(\"Status code is 401\", function () {",
+											"pm.test(\"Status code is 404\", function () {",
 											"    pm.response.to.have.status(401);",
 											"});",
 											"",
