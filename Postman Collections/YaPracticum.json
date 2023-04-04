@@ -157,20 +157,6 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (7)",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "72f6909a-5ab2-40da-852e-bac25d538ad7",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
 							"id": "48e560d2-810b-4379-bb9b-f39452f5e912",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -193,20 +179,6 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (8)",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "e97d3041-bcc0-4a27-8972-48a316044609",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
 							"id": "31f827d6-519f-458d-abf5-cc36adea5792",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -229,20 +201,6 @@
 						},
 						{
 							"name": "Доступность доставки курьерской службой (20)",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "b3be5e68-9d79-4d39-809e-75c27a09e574",
-										"exec": [
-											"pm.test(\"Status code is 200\", function () {",
-											"    pm.response.to.have.status(200);",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
 							"id": "c63c4bde-3066-481e-8194-39e251f33f7b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
