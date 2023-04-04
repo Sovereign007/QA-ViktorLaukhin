@@ -1687,6 +1687,20 @@
 						},
 						{
 							"name": "Запрос без закрывающего тега </InputModel>",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "18d5c80b-c59e-40e2-897f-9cb80593fa98",
+										"exec": [
+											"pm.test(\"Status code is 500\", function () {",
+											"    pm.response.to.have.status(500);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "ae136d88-3814-46dd-b9d9-5c2cea96cecd",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
