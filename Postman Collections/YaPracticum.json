@@ -2416,6 +2416,20 @@
 						},
 						{
 							"name": "id товара в корзине (null)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "146802c7-d205-4f52-80d9-998b01f3d881",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "544d88b6-b150-40d0-a241-edea0bcda603",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
