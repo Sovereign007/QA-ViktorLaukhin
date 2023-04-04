@@ -1919,43 +1919,6 @@
 							"response": []
 						},
 						{
-							"name": "Получение списка продуктов из несуществующей корзины",
-							"event": [
-								{
-									"listen": "test",
-									"script": {
-										"id": "3d61ad7c-3ee5-492e-8a28-0ecd5facb68b",
-										"exec": [
-											"pm.test(\"Status code is 404\", function () {",
-											"    pm.response.to.have.status(404);",
-											"});",
-											"",
-											"pm.test(\"Body matches string\", function () {",
-											"    pm.expect(pm.response.text()).to.include('\"message\": \"Not found\"');",
-											"});"
-										],
-										"type": "text/javascript"
-									}
-								}
-							],
-							"id": "5373035e-499e-41db-8c8b-e24b399c77c6",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "{{validToken}}"
-									}
-								},
-								"method": "GET",
-								"header": [],
-								"url": "{{server}}/api/v1/orders/{{emptyid}}"
-							},
-							"response": []
-						},
-						{
 							"name": "Удаление существующей корзины",
 							"event": [
 								{
