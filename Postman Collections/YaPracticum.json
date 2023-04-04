@@ -2980,6 +2980,20 @@
 						},
 						{
 							"name": "Удаление уже удаленной корзины",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "47fa8c41-a354-42e9-8136-7912a6c6d33a",
+										"exec": [
+											"pm.test(\"Status code is 404\", function () {",
+											"    pm.response.to.have.status(404);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"id": "8af876fc-4545-4d97-b49e-ffdd4e8a3c47",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
