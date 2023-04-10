@@ -16,6 +16,7 @@
      - [Stellar Burgers](https://docs.google.com/spreadsheets/d/1R3olgcmOmMkmCSF_4xSo55xBBNTdCH0IUSaUqffUMvY/edit?usp=sharing)
      - [Продуктовый помощник](https://docs.google.com/spreadsheets/d/1oAUuqpSONcdyuCQc0qKKisIiztwJeeYqYcpsB0SVgLs/edit?usp=sharing)
      - [Kittygram](https://docs.google.com/spreadsheets/d/18lnRDqg3E4z_sGrCvkmqz_lyCRn8Ici0F8s6NpuPigw/edit?usp=sharing)
+     - [Яндекс.Прилавок](https://docs.google.com/spreadsheets/d/1jwooUH_UF7jjkGm9vBhUo5qppf1JD2JF7ks6HDFjoLY/edit?usp=sharing)
   
   -  [Тест-кейсы](https://ссылочку_сюда)
 
