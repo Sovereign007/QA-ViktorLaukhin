@@ -3058,7 +3058,7 @@
 										}
 									}
 								},
-								"url": "{{server}}/api/v1/orders/{{id}}"
+								"url": "{{server}}/api/v1/orders/3 4"
 							},
 							"response": []
 						},
