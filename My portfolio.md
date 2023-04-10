@@ -40,7 +40,7 @@
      - [Яндекс.Прилавок](https://drive.google.com/drive/folders/1MB9Be1wuKhApQfA5-MnOHbt-UvWVN2Fh?usp=share_link)
      
  - Коллекция в Postman 
-     - [Название проекта](https://api.postman.com/collections/25691913-3ca82329-25d0-4da7-b1b3-7cf58493f65e?access_key=PMAT-01GXMY9JF3R0MP8GK748C1X7XX)
+     - [Яндекс.Прилавок](https://api.postman.com/collections/25691913-3ca82329-25d0-4da7-b1b3-7cf58493f65e?access_key=PMAT-01GXMY9JF3R0MP8GK748C1X7XX)
      
 - SQL запросы 
      - [Название проекта](https://ссылочку_сюда)
