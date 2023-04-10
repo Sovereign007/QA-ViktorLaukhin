@@ -2163,6 +2163,42 @@
 							"response": []
 						},
 						{
+							"name": "Валидация id товара в корзине нулевое значение (0)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "233e1c9b-51fc-4b8b-8d6c-2cfcf546e780",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "37a0d171-e228-44c5-9204-7157d345f118",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 3 4,\n            \"quantity\": 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
 							"name": "Валидация id товара в корзине (пустой параметр)",
 							"event": [
 								{
