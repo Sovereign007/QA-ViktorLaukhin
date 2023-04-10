@@ -2307,6 +2307,42 @@
 							"response": []
 						},
 						{
+							"name": "Валидация id товара в корзине параметр без значения",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "38ebc4ce-96a6-4b90-a0b8-6b8ec4d52636",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "b75ae298-25c6-4ec9-b71a-9b2a2b3dc345",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\":\"\",\n            \"quantity\": 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
 							"name": "Валидация id товара в корзине параметр не передан",
 							"event": [
 								{
