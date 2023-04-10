@@ -2187,7 +2187,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 3 4,\n            \"quantity\": 4\n        }\n    ]\n}",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 0,\n            \"quantity\": 4\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
