@@ -2055,6 +2055,42 @@
 							"response": []
 						},
 						{
+							"name": "Валидация id товара в корзине число, как строка",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "2d2aea51-5c04-4f89-b193-6ba40e7f3d61",
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"id": "66262cb8-81ef-4ae9-bb9c-4804bf7c8ba8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": \"id\",\n            \"quantity\": 4\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{server}}/api/v1/orders/{{id}}"
+							},
+							"response": []
+						},
+						{
 							"name": "Валидация id товара в корзине некорректное значение параметра (id)",
 							"event": [
 								{
