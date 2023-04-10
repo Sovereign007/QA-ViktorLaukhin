@@ -28,19 +28,21 @@
      - [Яндекс.Маршруты](https://docs.google.com/document/d/1wVOwE1ibxDGVbdKnl2hdwejqiU9Qs1iqjPky-NkdElI/edit?usp=sharing)
      - [Stellar Burgers](https://docs.google.com/document/d/1JJjsLXTxjM6KKOSmFKLK4S79X_mZY37wZ6jFqOzEUOs/edit?usp=sharing)
      - [Продуктовый помощник](https://docs.google.com/document/d/1-n0Rm9sqZk-fQPFHwCl17lUkRTT3Att75NHGUbXwj4U/edit?usp=sharing)
-     - [Kittygram](https://docs.google.com/document/d/1Vou7uSclRnPVHsAu3nT01sXd5Vs4hIyao_2TRGdXwjU/edit?usp=sharing) 
+     - [Kittygram](https://docs.google.com/document/d/1Vou7uSclRnPVHsAu3nT01sXd5Vs4hIyao_2TRGdXwjU/edit?usp=sharing)
+     - [Яндекс.Прилавок](https://docs.google.com/document/d/1zjsrW1WIbZ9nVplTE9hMtgdXk4JI7s4Q-qJdFbRQGhA/edit?usp=sharing)
  
  -  Баг-репорты
      - [Яндекс.Маршруты](https://drive.google.com/drive/folders/1DZC7gVL7XTLTJ2CxUEuDj8wwdpaTJdcQ?usp=share_link)
      - [Stellar Burgers](https://drive.google.com/drive/folders/1aosSSmJmFO6MFHHZcZLVwGzyfXD2C9lW?usp=share_link)
      - [Продуктовый помощник](https://drive.google.com/drive/folders/1r-6A_1gHZl1d6HxtY5NnzZGpEaGiYegY?usp=share_link)
      - [Kittygram](https://drive.google.com/drive/folders/15hbIZvcB6LXJULlP9wxLTnkhTgTBIDra?usp=share_link)
+     - [Яндекс.Прилавок] (https://drive.google.com/drive/folders/1MB9Be1wuKhApQfA5-MnOHbt-UvWVN2Fh?usp=share_link)
      
  - Коллекция в Postman 
-     - [Название проекта](https://ссылочку_сюда)
+     - [Название проекта](https://api.postman.com/collections/25691913-3ca82329-25d0-4da7-b1b3-7cf58493f65e?access_key=PMAT-01GXMY9JF3R0MP8GK748C1X7XX)
      
 - SQL запросы 
-     - [Название проектв](https://ссылочку_сюда)
+     - [Название проекта](https://ссылочку_сюда)
 
 ## Инструменты и технологии
 Charles Proxy, Chrome DevTools, Figma, Miro, Postman, Android Studio, Pytest, Selenium, Git, SQL, сURL.
