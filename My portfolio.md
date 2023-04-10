@@ -37,7 +37,7 @@
      - [Stellar Burgers](https://drive.google.com/drive/folders/1aosSSmJmFO6MFHHZcZLVwGzyfXD2C9lW?usp=share_link)
      - [Продуктовый помощник](https://drive.google.com/drive/folders/1r-6A_1gHZl1d6HxtY5NnzZGpEaGiYegY?usp=share_link)
      - [Kittygram](https://drive.google.com/drive/folders/15hbIZvcB6LXJULlP9wxLTnkhTgTBIDra?usp=share_link)
-     - [Яндекс.Прилавок] (https://drive.google.com/drive/folders/1MB9Be1wuKhApQfA5-MnOHbt-UvWVN2Fh?usp=share_link)
+     - [Яндекс.Прилавок](https://drive.google.com/drive/folders/1MB9Be1wuKhApQfA5-MnOHbt-UvWVN2Fh?usp=share_link)
      
  - Коллекция в Postman 
      - [Название проекта](https://api.postman.com/collections/25691913-3ca82329-25d0-4da7-b1b3-7cf58493f65e?access_key=PMAT-01GXMY9JF3R0MP8GK748C1X7XX)
