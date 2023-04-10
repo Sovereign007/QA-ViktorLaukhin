@@ -2439,7 +2439,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 3 4\n        }\n    ]\n}",
+									"raw": "{\n    \"productsList\": [\n        {\n            \"id\": 1,\n            \"quantity\": 0\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
