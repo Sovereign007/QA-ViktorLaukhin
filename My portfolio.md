@@ -18,8 +18,9 @@
      - [Kittygram](https://docs.google.com/spreadsheets/d/18lnRDqg3E4z_sGrCvkmqz_lyCRn8Ici0F8s6NpuPigw/edit?usp=sharing)
      - [Яндекс.Прилавок](https://docs.google.com/spreadsheets/d/1jwooUH_UF7jjkGm9vBhUo5qppf1JD2JF7ks6HDFjoLY/edit?usp=sharing)
   
-  -  [Тест-кейсы](https://ссылочку_сюда)
-
+  -  [Тест-кейсы]
+     - [Яндекс.Маршруты](https://drive.google.com/drive/folders/17rflcPV9pwa8NBKNc-g4FWL3va6oxXpe?usp=share_link)
+     - [Яндекс.Метро](https://drive.google.com/drive/folders/187erPqKYx1BrLGq5g77ZsYDFNNUS3rfP?usp=share_link)
   - Mind maps:
      - [Stellar Burgers](https://miro.com/app/board/uXjVPqZfbnM=/?share_link_id=756541945790)     
      - [Продуктовый помощник](https://miro.com/app/board/uXjVPqYycr4=/?share_link_id=111794524158)
