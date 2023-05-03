@@ -43,7 +43,8 @@
      - [Яндекс.Прилавок](https://drive.google.com/file/d/1BZ51DaAjt_jgBmVFDecvRJA5y1Q40F0W/view?usp=share_link)
      
 - SQL запросы 
-     - [Название проекта](https://ссылочку_сюда)
+     - [Яндекс.Прилавок](https://docs.google.com/document/d/1j2I_8Y_mGzVVvzicPJJNMEFdJW_g2EkrOqlA7iJPbXg/edit?usp=sharing)
+     - [Схема БД Яндекс.Прилавка](https://drive.google.com/drive/folders/1vpSnqdekQ-OlMW-oFR6RYco5ZwHZapZ6?usp=share_link)
 
 ## Инструменты и технологии
 Charles Proxy, Chrome DevTools, Figma, Miro, Postman, Android Studio, Pytest, Selenium, Git, SQL, сURL.
