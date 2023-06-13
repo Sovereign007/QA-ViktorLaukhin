@@ -42,12 +42,12 @@ def negative_assert_no_kit_name(kit_name):
     assert kit_response.json()["code"] == 400
 
 
-# Позитивный тест 1 символ названия
+# Позитивный тест 1 символ в названии
 def test_create_kit_1_letter_in_kit_name_get_success_response():
     positive_assert_quantity('И')
 
 
-# Позитивный тест 511 символов названия
+# Позитивный тест 511 символов в названии
 def test_create_kit_511_letters_in_kit_name_get_success_response():
     positive_assert_quantity("Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc" \
                              "dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab" \
@@ -61,10 +61,12 @@ def test_create_kit_511_letters_in_kit_name_get_success_response():
                              "dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC")
 
 
+# Негативный тест 0 символов в названии
 def test_create_kit_zero_letters_in_kit_name_get_error_response():
     negative_assert_quantity('')
 
 
+# Негативный тест 512 символов в названии
 def test_create_kit_512_letters_in_kit_name_get_error_response():
     negative_assert_quantity("Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc" \
                              "dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab" \
@@ -78,26 +80,31 @@ def test_create_kit_512_letters_in_kit_name_get_error_response():
                              "dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcD")
 
 
+# Позитивный тест латиница в названии
 def test_create_kit_english_letters_in_kit_name_get_success_response():
     positive_assert_quantity('QWErty')
 
 
+# Позитивный тест кириллица в названии
 def test_create_kit_russian_letters_in_kit_name_get_success_response():
     positive_assert_quantity('Мария')
 
 
+# Позитивный тест спецсимволы в названии
 def test_create_kit_special_symbols_in_kit_name_get_success_response():
     positive_assert_quantity('\"№%@\",')
 
 
+# Позитивный тест пробелы в названии
 def test_create_kit_space_in_kit_name_get_success_response():
     positive_assert_quantity('Человек и КО')
 
 
+# Позитивный тест числа в названии
 def test_create_kit_numbers_in_kit_name_get_success_response():
     positive_assert_quantity('123')
 
-
+# Негативный тест параметр не передан в запросе
 def test_create_kit_no_kit_name_get_error_response():
     # Копируется словарь с телом запроса из файла data в переменную user_body
     current_kit_body = data.kit_body.copy()
@@ -105,9 +112,6 @@ def test_create_kit_no_kit_name_get_error_response():
     current_kit_body.pop('name')
     negative_assert_no_kit_name(current_kit_body)
 
-
-def test_create_kit_empty_kit_name_get_error_response():
-    # В переменную current_kit_body сохраняется обновлённое тело запроса
-    current_kit_body = get_kit_body('')
-    # Проверка полученного ответа
-    negative_assert_no_kit_name(current_kit_body)
+# Негативный тест другой тип (число) параметра в названии
+def test_create_kit_number_type_in_kit_name_get_error_response():
+    negative_assert_quantity(123)
