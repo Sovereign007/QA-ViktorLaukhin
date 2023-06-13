@@ -1,6 +1,7 @@
 import sender_stand_request
 import data
 
+
 # Функция меняет значения в параметре firstName
 def get_user_body(first_name):
     # копирование словаря с телом запроса из файла data, чтобы не потерять данные в исходном словаре
@@ -9,6 +10,7 @@ def get_user_body(first_name):
     current_body["firstName"] = first_name
     # возвращается новый словарь с нужным значением firstName
     return current_body
+
 
 # Функция для позитивной проверки
 def positive_assert(first_name):
@@ -28,6 +30,7 @@ def positive_assert(first_name):
     # Проверка, что такой пользователь есть, и он единственный
     assert users_table_response.text.count(str_user) == 1
 
+
 # Функция для негативной проверки, когда в ответе ошибка про символы
 def negative_assert_symbol(first_name):
     # В переменную user_body сохраняется обновленное тело запроса
@@ -40,6 +43,7 @@ def negative_assert_symbol(first_name):
                                          "Имя может содержать только русские или латинские буквы, " \
                                          "длина должна быть не менее 2 и не более 15 символов"
 
+
 # Функция для негативной проверки, когда в ответе есть про не все переданные параметры
 def negative_assert_no_first_name(user_body):
     # В переменную response сохраняется результат вызова функции
@@ -49,20 +53,24 @@ def negative_assert_no_first_name(user_body):
     assert response.json()["code"] == 400
     assert response.json()["message"] == "Не все необходимые параметры были переданы"
 
+
 # Тест 1. Успешное создание пользователя
 # Параметр fisrtName состоит из 2 символов
 def test_create_user_2_letter_in_first_name_get_success_response():
     positive_assert("Aa")
+
 
 # Тест 2. Успешное создание пользователя
 # Параметр fisrtName состоит из 15 символов
 def test_create_user_15_letters_in_first_name_get_success_response():
     positive_assert("Aaааааааааааааа")
 
+
 # Тест 3. Успешное создание пользователя
 # Параметр fisrtName состоит из английских символов
 def test_create_user_english_letter_in_first_name_get_success_response():
     positive_assert("qwerty")
+
 
 # Тест 4. Успешное создание пользователя
 # Параметр fisrtName состоит из русских символов
@@ -75,25 +83,30 @@ def test_create_user_russian_letter_in_first_name_get_success_response():
 def test_create_user_1_letter_in_first_name_get_success_response():
     negative_assert_symbol("A")
 
+
 # Тест 6. Неуспешное создание пользователя
 # Параметр fisrtName состоит из 16 символов
 def test_create_user_16_letters_in_first_name_get_success_response():
     negative_assert_symbol("Aaаааааааааааааа")
+
 
 # Тест 7. Неуспешное создание пользователя
 # Параметр fisrtName содержит пробелы
 def test_create_user_has_space_in_first_name_get_error_response():
     negative_assert_symbol("Человек и Ко")
 
+
 # Тест 8. Неуспешное создание пользователя
 # Параметр fisrtName содержит спецсимволы
 def test_create_user_has_special_symbol_in_first_name_get_error_response():
     negative_assert_symbol("№%@")
 
+
 # Тест 9. Неуспешное создание пользователя
 # Параметр fisrtName содержит цифры
 def test_create_user_has_number_in_first_name_get_error_response():
     negative_assert_symbol("123")
+
 
 # Тест 10. Ошибка
 # В запросе нет параметра firstName
@@ -106,12 +119,14 @@ def test_create_user_no_first_name_get_error_response():
     # Проверка полученного ответа
     negative_assert_no_first_name(user_body)
 
+
 # Тест 11. Ошибка
 # # Параметр firstName состоит из пустой строки
 def test_create_user_empty_first_name_get_error_response():
     # В переменную user_body сохраняется обновлённое тело запроса
     user_body = get_user_body("")
     negative_assert_no_first_name(user_body)
+
 
 # Тест 12. Ошибка
 # Тип параметра firstName: число
