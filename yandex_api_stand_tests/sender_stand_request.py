@@ -35,19 +35,12 @@ def get_user_auth_token():
     return response.json().get('authToken')
 
 
-a_token = get_user_auth_token()
-
-autorization_headers = {"Content-Type": "application/json", "Authorization": "Bearer " + a_token}
-
-
 # Создание личного набора
-def post_new_client_kit(kit_body):
-#    kit_body = data.kit_body.copy()
+def post_new_client_kit(kit_body, auth_token=get_user_auth_token()):
+    headers = data.headers.copy()
+#   Вопрос – какая реализация заголовков более верная и красивая? Потому что работают обе
+#    headers = {"Content-Type": "application/json", "Authorization": "Bearer " + auth_token}
+    headers["Authorization"] = "Bearer " + auth_token
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_KIT_PATH,
                          json=kit_body,
-                         headers=autorization_headers)
-
-
-# Проверка факта создания нового набора в таблице kit_model
-def get_kit_table():
-    return requests.get(configuration.URL_SERVICE + configuration.KIT_TABLE_PATH)
+                         headers=headers)
