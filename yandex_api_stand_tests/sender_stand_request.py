@@ -38,8 +38,6 @@ def get_user_auth_token():
 # Создание личного набора
 def post_new_client_kit(kit_body, auth_token=get_user_auth_token()):
     headers = data.headers.copy()
-#   Вопрос – какая реализация заголовков более верная и красивая? Потому что работают обе
-#    headers = {"Content-Type": "application/json", "Authorization": "Bearer " + auth_token}
     headers["Authorization"] = "Bearer " + auth_token
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_KIT_PATH,
                          json=kit_body,
